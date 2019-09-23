@@ -1,0 +1,6 @@
+5,858	5,262	4,488	3,537	2,578	2,156	2,375	2,839	3,575	4,635	5,707	6,142
+Valores Históricos minimos para região de Santo Ângelo/RS
+4,86	4,91	4,01	3,54	2,58	2,16	2,37	2,84	3,57	3,87	4,86	5,40
+Valores relativos por meio de percentil (relativo)
+5,85	5,91	4,82	4,36	3,14	3,29	3,08	3,87	4,3	4,66	5,86	6,5
+Calculado pela simulação

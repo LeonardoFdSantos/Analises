@@ -1,0 +1,2937 @@
+	Crystal Report Professional v11.0 (32 bits) - Report Definition
+
+1.0 Informações do Arquivo
+
+	Arquivo de Relatório: Medições
+	Versão: 11.0
+
+2.0 Campos de Registro
+	A - {Medidas.DATA}
+
+3.0 Campos de Grupo
+
+4.0 Fórmulas
+
+4.1 Fórmula de Seleção de Registro
+	{Medidas.COD_EQUIP}=3 AND {Medidas.DATA}>=DateTime(2018,11,20,11,49,29) AND {Medidas.DATA}<=DateTime(2018,11,23,09,25,46) AND {Medidas.CLIENTE}='009'
+
+4.2 Fórmula de Seleção de Grupo
+	
+
+4.3 Outras Fórmulas
+
+	Nome: {@Software}
+	Fórmula: 'ST-Conecta v.1.2.146'
+
+	Nome: {@Faixa2}
+	Fórmula: ' SET-POINT: 0,95   -   HORÁRIO DE PONTA: 18:00 A 21:00'
+
+	Nome: {@CabGrupo}
+	Fórmula: 'DATA: '+ToText({Medidas.Data},'dd/MM/yyyy')
+
+	Nome: {@Res10}
+	Fórmula: "Horario"
+	
+
+	Nome: {@Tit1}
+	Fórmula: 'Fat.Pot.'
+
+	Nome: {@Tit2}
+	Fórmula: 'Pot.Aparente'+chr(13)+'(kVA)'
+
+	Nome: {@Tit3}
+	Fórmula: 'Pot.Ativa'+chr(13)+'(kW)*'
+
+	Nome: {@Tit4}
+	Fórmula: 'Pot.Reativa'+chr(13)+'(kVAr)*'
+
+	Nome: {@Tit5}
+	Fórmula: 'KWh**'
+
+	Nome: {@Tit6}
+	Fórmula: 'KVArh**'
+
+	Nome: {@Tit7}
+	Fórmula: 'Exc. KVAr*'
+
+	Nome: {@Tit8}
+	Fórmula: ''
+
+	Nome: {@Res11}
+	Fórmula: "Hora"
+	
+
+	Nome: {@Tit1}
+	Fórmula: 'Fat.Pot.'
+
+	Nome: {@Tit2}
+	Fórmula: 'Pot.Aparente'+chr(13)+'(kVA)'
+
+	Nome: {@Tit3}
+	Fórmula: 'Pot.Ativa'+chr(13)+'(kW)*'
+
+	Nome: {@Tit4}
+	Fórmula: 'Pot.Reativa'+chr(13)+'(kVAr)*'
+
+	Nome: {@Tit5}
+	Fórmula: 'KWh**'
+
+	Nome: {@Tit6}
+	Fórmula: 'KVArh**'
+
+	Nome: {@Tit7}
+	Fórmula: 'Exc. KVAr*'
+
+	Nome: {@Tit8}
+	Fórmula: ''
+
+	Nome: {@1ENDERECO}
+	Fórmula: ' - /'
+
+	Nome: {@1EMPRESA}
+	Fórmula: 'Gallas'
+
+	Nome: {@Sub1}
+	Fórmula: 'R:'
+
+	Nome: {@Tot1_0}
+	Fórmula: ''
+
+	Nome: {@Tot2_0}
+	Fórmula: Average({@Vlr2_0})
+
+	Nome: {@Tot3_0}
+	Fórmula: Average({@Vlr3_0})
+
+	Nome: {@Tot4_0}
+	Fórmula: Average({@Vlr4_0})
+
+	Nome: {@Tot5_0}
+	Fórmula: Maximum({@Vlr5_0})
+
+	Nome: {@Tot6_0}
+	Fórmula: Maximum({@Vlr6_0})
+
+	Nome: {@Tot7_0}
+	Fórmula: Average({@Vlr7_0})
+
+	Nome: {@Tot8_0}
+	Fórmula: ''
+
+	Nome: {@Sub2}
+	Fórmula: 'S:'
+
+	Nome: {@Tot1_1}
+	Fórmula: ''
+
+	Nome: {@Tot2_1}
+	Fórmula: Average({@Vlr2_1})
+
+	Nome: {@Tot3_1}
+	Fórmula: Average({@Vlr3_1})
+
+	Nome: {@Tot4_1}
+	Fórmula: Average({@Vlr4_1})
+
+	Nome: {@Tot5_1}
+	Fórmula: Maximum({@Vlr5_1})
+
+	Nome: {@Tot6_1}
+	Fórmula: Maximum({@Vlr6_1})
+
+	Nome: {@Tot7_1}
+	Fórmula: Average({@Vlr7_1})
+
+	Nome: {@Tot8_1}
+	Fórmula: ''
+
+	Nome: {@Sub3}
+	Fórmula: 'T:'
+
+	Nome: {@Tot1_2}
+	Fórmula: ''
+
+	Nome: {@Tot2_2}
+	Fórmula: Average({@Vlr2_2})
+
+	Nome: {@Tot3_2}
+	Fórmula: Average({@Vlr3_2})
+
+	Nome: {@Tot4_2}
+	Fórmula: Average({@Vlr4_2})
+
+	Nome: {@Tot5_2}
+	Fórmula: Maximum({@Vlr5_2})
+
+	Nome: {@Tot6_2}
+	Fórmula: Maximum({@Vlr6_2})
+
+	Nome: {@Tot7_2}
+	Fórmula: Average({@Vlr7_2})
+
+	Nome: {@Tot8_2}
+	Fórmula: ''
+
+	Nome: {@Sub4}
+	Fórmula: 'Tot:'
+
+	Nome: {@Tot1_3}
+	Fórmula: ''
+
+	Nome: {@Tot2_3}
+	Fórmula: Average({@Vlr2_3})
+
+	Nome: {@Tot3_3}
+	Fórmula: Average({@Vlr3_3})
+
+	Nome: {@Tot4_3}
+	Fórmula: Average({@Vlr4_3})
+
+	Nome: {@Tot5_3}
+	Fórmula: Maximum({@Vlr5_3})
+
+	Nome: {@Tot6_3}
+	Fórmula: Maximum({@Vlr6_3})
+
+	Nome: {@Tot7_3}
+	Fórmula: Average({@Vlr7_3})
+
+	Nome: {@Tot8_3}
+	Fórmula: ''
+
+	Nome: {@Sub1}
+	Fórmula: 'R:'
+
+	Nome: {@Tot1_0}
+	Fórmula: ''
+
+	Nome: {@Tot2_0}
+	Fórmula: Average({@Vlr2_0})
+
+	Nome: {@Tot3_0}
+	Fórmula: Average({@Vlr3_0})
+
+	Nome: {@Tot4_0}
+	Fórmula: Average({@Vlr4_0})
+
+	Nome: {@Tot5_0}
+	Fórmula: Maximum({@Vlr5_0})
+
+	Nome: {@Tot6_0}
+	Fórmula: Maximum({@Vlr6_0})
+
+	Nome: {@Tot7_0}
+	Fórmula: Average({@Vlr7_0})
+
+	Nome: {@Tot8_0}
+	Fórmula: ''
+
+	Nome: {@Sub2}
+	Fórmula: 'S:'
+
+	Nome: {@Tot1_1}
+	Fórmula: ''
+
+	Nome: {@Tot2_1}
+	Fórmula: Average({@Vlr2_1})
+
+	Nome: {@Tot3_1}
+	Fórmula: Average({@Vlr3_1})
+
+	Nome: {@Tot4_1}
+	Fórmula: Average({@Vlr4_1})
+
+	Nome: {@Tot5_1}
+	Fórmula: Maximum({@Vlr5_1})
+
+	Nome: {@Tot6_1}
+	Fórmula: Maximum({@Vlr6_1})
+
+	Nome: {@Tot7_1}
+	Fórmula: Average({@Vlr7_1})
+
+	Nome: {@Tot8_1}
+	Fórmula: ''
+
+	Nome: {@Sub3}
+	Fórmula: 'T:'
+
+	Nome: {@Tot1_2}
+	Fórmula: ''
+
+	Nome: {@Tot2_2}
+	Fórmula: Average({@Vlr2_2})
+
+	Nome: {@Tot3_2}
+	Fórmula: Average({@Vlr3_2})
+
+	Nome: {@Tot4_2}
+	Fórmula: Average({@Vlr4_2})
+
+	Nome: {@Tot5_2}
+	Fórmula: Maximum({@Vlr5_2})
+
+	Nome: {@Tot6_2}
+	Fórmula: Maximum({@Vlr6_2})
+
+	Nome: {@Tot7_2}
+	Fórmula: Average({@Vlr7_2})
+
+	Nome: {@Tot8_2}
+	Fórmula: ''
+
+	Nome: {@Sub4}
+	Fórmula: 'Tot:'
+
+	Nome: {@Tot1_3}
+	Fórmula: ''
+
+	Nome: {@Tot2_3}
+	Fórmula: Average({@Vlr2_3})
+
+	Nome: {@Tot3_3}
+	Fórmula: Average({@Vlr3_3})
+
+	Nome: {@Tot4_3}
+	Fórmula: Average({@Vlr4_3})
+
+	Nome: {@Tot5_3}
+	Fórmula: Maximum({@Vlr5_3})
+
+	Nome: {@Tot6_3}
+	Fórmula: Maximum({@Vlr6_3})
+
+	Nome: {@Tot7_3}
+	Fórmula: Average({@Vlr7_3})
+
+	Nome: {@Tot8_3}
+	Fórmula: ''
+
+	Nome: {@Res12}
+	Fórmula: '* = Sumario com media total     ** = Sumario com soma total ou máx.'
+
+	Nome: {@CabGrupo}
+	Fórmula: 'DATA: '+ToText({Medidas.Data},'dd/MM/yyyy')
+
+	Nome: {@Tit1}
+	Fórmula: 'Fat.Pot.'
+
+	Nome: {@Tit8}
+	Fórmula: ''
+
+	Nome: {@Tit7}
+	Fórmula: 'Exc. KVAr*'
+
+	Nome: {@Tit6}
+	Fórmula: 'KVArh**'
+
+	Nome: {@Tit5}
+	Fórmula: 'KWh**'
+
+	Nome: {@Tit4}
+	Fórmula: 'Pot.Reativa'+chr(13)+'(kVAr)*'
+
+	Nome: {@Tit3}
+	Fórmula: 'Pot.Ativa'+chr(13)+'(kW)*'
+
+	Nome: {@Tit2}
+	Fórmula: 'Pot.Aparente'+chr(13)+'(kVA)'
+
+	Nome: {@Res10}
+	Fórmula: "Horario"
+	
+
+	Nome: {@Tit1}
+	Fórmula: 'Fat.Pot.'
+
+	Nome: {@Tit2}
+	Fórmula: 'Pot.Aparente'+chr(13)+'(kVA)'
+
+	Nome: {@Tit3}
+	Fórmula: 'Pot.Ativa'+chr(13)+'(kW)*'
+
+	Nome: {@Tit4}
+	Fórmula: 'Pot.Reativa'+chr(13)+'(kVAr)*'
+
+	Nome: {@Tit5}
+	Fórmula: 'KWh**'
+
+	Nome: {@Tit6}
+	Fórmula: 'KVArh**'
+
+	Nome: {@Tit7}
+	Fórmula: 'Exc. KVAr*'
+
+	Nome: {@Tit8}
+	Fórmula: ''
+
+	Nome: {@Res11}
+	Fórmula: "Hora"
+	
+
+	Nome: {@Sum1_0}
+	Fórmula: ''
+
+	Nome: {@Sum2_0}
+	Fórmula: Average({@Vlr2_0},{@Grupo})
+
+	Nome: {@Sum3_0}
+	Fórmula: Average({@Vlr3_0},{@Grupo})
+
+	Nome: {@Sum5_0}
+	Fórmula: Maximum({@Vlr5_0},{@Grupo})
+
+	Nome: {@Sum4_0}
+	Fórmula: Average({@Vlr4_0},{@Grupo})
+
+	Nome: {@Sum6_0}
+	Fórmula: Maximum({@Vlr6_0},{@Grupo})
+
+	Nome: {@Sum7_0}
+	Fórmula: Average({@Vlr7_0},{@Grupo})
+
+	Nome: {@Sum8_0}
+	Fórmula: ''
+
+	Nome: {@Sub1}
+	Fórmula: 'R:'
+
+	Nome: {@RodGrupo}
+	Fórmula: 'Subtot.: '
+
+	Nome: {@Sum1_1}
+	Fórmula: ''
+
+	Nome: {@Sum2_1}
+	Fórmula: Average({@Vlr2_1},{@Grupo})
+
+	Nome: {@Sum3_1}
+	Fórmula: Average({@Vlr3_1},{@Grupo})
+
+	Nome: {@Sum5_1}
+	Fórmula: Maximum({@Vlr5_1},{@Grupo})
+
+	Nome: {@Sum4_1}
+	Fórmula: Average({@Vlr4_1},{@Grupo})
+
+	Nome: {@Sum6_1}
+	Fórmula: Maximum({@Vlr6_1},{@Grupo})
+
+	Nome: {@Sum7_1}
+	Fórmula: Average({@Vlr7_1},{@Grupo})
+
+	Nome: {@Sum8_1}
+	Fórmula: ''
+
+	Nome: {@Sub2}
+	Fórmula: 'S:'
+
+	Nome: {@Sum1_2}
+	Fórmula: ''
+
+	Nome: {@Sum2_2}
+	Fórmula: Average({@Vlr2_2},{@Grupo})
+
+	Nome: {@Sum3_2}
+	Fórmula: Average({@Vlr3_2},{@Grupo})
+
+	Nome: {@Sum5_2}
+	Fórmula: Maximum({@Vlr5_2},{@Grupo})
+
+	Nome: {@Sum4_2}
+	Fórmula: Average({@Vlr4_2},{@Grupo})
+
+	Nome: {@Sum6_2}
+	Fórmula: Maximum({@Vlr6_2},{@Grupo})
+
+	Nome: {@Sum7_2}
+	Fórmula: Average({@Vlr7_2},{@Grupo})
+
+	Nome: {@Sum8_2}
+	Fórmula: ''
+
+	Nome: {@Sub3}
+	Fórmula: 'T:'
+
+	Nome: {@Sum1_3}
+	Fórmula: ''
+
+	Nome: {@Sum2_3}
+	Fórmula: Average({@Vlr2_3},{@Grupo})
+
+	Nome: {@Sum3_3}
+	Fórmula: Average({@Vlr3_3},{@Grupo})
+
+	Nome: {@Sum5_3}
+	Fórmula: Maximum({@Vlr5_3},{@Grupo})
+
+	Nome: {@Sum4_3}
+	Fórmula: Average({@Vlr4_3},{@Grupo})
+
+	Nome: {@Sum6_3}
+	Fórmula: Maximum({@Vlr6_3},{@Grupo})
+
+	Nome: {@Sum7_3}
+	Fórmula: Average({@Vlr7_3},{@Grupo})
+
+	Nome: {@Sum8_3}
+	Fórmula: ''
+
+	Nome: {@Sub4}
+	Fórmula: 'Tot:'
+
+	Nome: {@Sum1_0}
+	Fórmula: ''
+
+	Nome: {@Sum2_0}
+	Fórmula: Average({@Vlr2_0},{@Grupo})
+
+	Nome: {@Sum3_0}
+	Fórmula: Average({@Vlr3_0},{@Grupo})
+
+	Nome: {@Sum4_0}
+	Fórmula: Average({@Vlr4_0},{@Grupo})
+
+	Nome: {@Sum5_0}
+	Fórmula: Maximum({@Vlr5_0},{@Grupo})
+
+	Nome: {@Sum6_0}
+	Fórmula: Maximum({@Vlr6_0},{@Grupo})
+
+	Nome: {@Sum7_0}
+	Fórmula: Average({@Vlr7_0},{@Grupo})
+
+	Nome: {@Sum8_0}
+	Fórmula: ''
+
+	Nome: {@Sub1}
+	Fórmula: 'R:'
+
+	Nome: {@RodGrupo}
+	Fórmula: 'Subtot.: '
+
+	Nome: {@Sum1_1}
+	Fórmula: ''
+
+	Nome: {@Sum2_1}
+	Fórmula: Average({@Vlr2_1},{@Grupo})
+
+	Nome: {@Sum3_1}
+	Fórmula: Average({@Vlr3_1},{@Grupo})
+
+	Nome: {@Sum4_1}
+	Fórmula: Average({@Vlr4_1},{@Grupo})
+
+	Nome: {@Sum5_1}
+	Fórmula: Maximum({@Vlr5_1},{@Grupo})
+
+	Nome: {@Sum6_1}
+	Fórmula: Maximum({@Vlr6_1},{@Grupo})
+
+	Nome: {@Sum7_1}
+	Fórmula: Average({@Vlr7_1},{@Grupo})
+
+	Nome: {@Sum8_1}
+	Fórmula: ''
+
+	Nome: {@Sub2}
+	Fórmula: 'S:'
+
+	Nome: {@Sum1_2}
+	Fórmula: ''
+
+	Nome: {@Sum2_2}
+	Fórmula: Average({@Vlr2_2},{@Grupo})
+
+	Nome: {@Sum3_2}
+	Fórmula: Average({@Vlr3_2},{@Grupo})
+
+	Nome: {@Sum4_2}
+	Fórmula: Average({@Vlr4_2},{@Grupo})
+
+	Nome: {@Sum5_2}
+	Fórmula: Maximum({@Vlr5_2},{@Grupo})
+
+	Nome: {@Sum6_2}
+	Fórmula: Maximum({@Vlr6_2},{@Grupo})
+
+	Nome: {@Sum7_2}
+	Fórmula: Average({@Vlr7_2},{@Grupo})
+
+	Nome: {@Sum8_2}
+	Fórmula: ''
+
+	Nome: {@Sub3}
+	Fórmula: 'T:'
+
+	Nome: {@Sum1_3}
+	Fórmula: ''
+
+	Nome: {@Sum2_3}
+	Fórmula: Average({@Vlr2_3},{@Grupo})
+
+	Nome: {@Sum3_3}
+	Fórmula: Average({@Vlr3_3},{@Grupo})
+
+	Nome: {@Sum4_3}
+	Fórmula: Average({@Vlr4_3},{@Grupo})
+
+	Nome: {@Sum5_3}
+	Fórmula: Maximum({@Vlr5_3},{@Grupo})
+
+	Nome: {@Sum6_3}
+	Fórmula: Maximum({@Vlr6_3},{@Grupo})
+
+	Nome: {@Sum7_3}
+	Fórmula: Average({@Vlr7_3},{@Grupo})
+
+	Nome: {@Sum8_3}
+	Fórmula: ''
+
+	Nome: {@Sub4}
+	Fórmula: 'Tot:'
+
+	Nome: {@Vlr1_0}
+	Fórmula: {Medidas.FPr}
+
+	Nome: {@Vlr2_0}
+	Fórmula: {R2_Med2.PotAp_r}
+
+	Nome: {@Vlr3_0}
+	Fórmula: {R2_Med2.PotAt_r}
+
+	Nome: {@Vlr4_0}
+	Fórmula: {R2_Med2.PotReat_r}
+
+	Nome: {@Vlr5_0}
+	Fórmula: {R2_Med2.KWh_r}
+
+	Nome: {@Vlr6_0}
+	Fórmula: {R2_Med2.KVArh_r}
+
+	Nome: {@Vlr7_0}
+	Fórmula: {R2_Med2.ExcKVAr_r}
+
+	Nome: {@Vlr8_0}
+	Fórmula: ''
+
+	Nome: {@Sub1}
+	Fórmula: 'R:'
+
+	Nome: {@Vlr1_1}
+	Fórmula: {Medidas.FPs}
+
+	Nome: {@Vlr2_1}
+	Fórmula: {R2_Med2.PotAp_s}
+
+	Nome: {@Vlr3_1}
+	Fórmula: {R2_Med2.PotAt_s}
+
+	Nome: {@Vlr4_1}
+	Fórmula: {R2_Med2.PotReat_s}
+
+	Nome: {@Vlr5_1}
+	Fórmula: {R2_Med2.KWh_s}
+
+	Nome: {@Vlr6_1}
+	Fórmula: {R2_Med2.KVArh_s}
+
+	Nome: {@Vlr7_1}
+	Fórmula: {R2_Med2.ExcKVAr_s}
+
+	Nome: {@Vlr8_1}
+	Fórmula: ''
+
+	Nome: {@Sub2}
+	Fórmula: 'S:'
+
+	Nome: {@Vlr1_2}
+	Fórmula: {Medidas.FPt}
+
+	Nome: {@Vlr2_2}
+	Fórmula: {R2_Med2.PotAp_t}
+
+	Nome: {@Vlr3_2}
+	Fórmula: {R2_Med2.PotAt_t}
+
+	Nome: {@Vlr4_2}
+	Fórmula: {R2_Med2.PotReat_t}
+
+	Nome: {@Vlr5_2}
+	Fórmula: {R2_Med2.KWh_t}
+
+	Nome: {@Vlr6_2}
+	Fórmula: {R2_Med2.KVArh_t}
+
+	Nome: {@Vlr7_2}
+	Fórmula: {R2_Med2.ExcKVAr_t}
+
+	Nome: {@Vlr8_2}
+	Fórmula: ''
+
+	Nome: {@Sub3}
+	Fórmula: 'T:'
+
+	Nome: {@Vlr1_3}
+	Fórmula: {R2_Med2.FatPot_TOT}
+
+	Nome: {@Vlr2_3}
+	Fórmula: {R2_Med2.PotAp_TOT}
+
+	Nome: {@Vlr3_3}
+	Fórmula: {R2_Med2.PotAt_TOT}
+
+	Nome: {@Vlr4_3}
+	Fórmula: {R2_Med2.PotReat_TOT}
+
+	Nome: {@Vlr5_3}
+	Fórmula: {R2_Med2.KWh_TOT}
+
+	Nome: {@Vlr6_3}
+	Fórmula: {R2_Med2.KVArh_TOT}
+
+	Nome: {@Vlr8_3}
+	Fórmula: ''
+
+	Nome: {@Vlr7_3}
+	Fórmula: {R2_Med2.ExcKVAr_TOT}
+
+	Nome: {@Sub4}
+	Fórmula: 'Tot:'
+
+	Nome: {@Vlr1_0}
+	Fórmula: {Medidas.FPr}
+
+	Nome: {@Vlr2_0}
+	Fórmula: {R2_Med2.PotAp_r}
+
+	Nome: {@Vlr3_0}
+	Fórmula: {R2_Med2.PotAt_r}
+
+	Nome: {@Vlr4_0}
+	Fórmula: {R2_Med2.PotReat_r}
+
+	Nome: {@Vlr5_0}
+	Fórmula: {R2_Med2.KWh_r}
+
+	Nome: {@Vlr6_0}
+	Fórmula: {R2_Med2.KVArh_r}
+
+	Nome: {@Vlr7_0}
+	Fórmula: {R2_Med2.ExcKVAr_r}
+
+	Nome: {@Vlr8_0}
+	Fórmula: ''
+
+	Nome: {@Sub1}
+	Fórmula: 'R:'
+
+	Nome: {@Vlr8_1}
+	Fórmula: ''
+
+	Nome: {@Vlr7_1}
+	Fórmula: {R2_Med2.ExcKVAr_s}
+
+	Nome: {@Vlr6_1}
+	Fórmula: {R2_Med2.KVArh_s}
+
+	Nome: {@Vlr5_1}
+	Fórmula: {R2_Med2.KWh_s}
+
+	Nome: {@Vlr4_1}
+	Fórmula: {R2_Med2.PotReat_s}
+
+	Nome: {@Vlr3_1}
+	Fórmula: {R2_Med2.PotAt_s}
+
+	Nome: {@Vlr2_1}
+	Fórmula: {R2_Med2.PotAp_s}
+
+	Nome: {@Vlr1_1}
+	Fórmula: {Medidas.FPs}
+
+	Nome: {@Sub2}
+	Fórmula: 'S:'
+
+	Nome: {@Vlr8_2}
+	Fórmula: ''
+
+	Nome: {@Vlr7_2}
+	Fórmula: {R2_Med2.ExcKVAr_t}
+
+	Nome: {@Vlr6_2}
+	Fórmula: {R2_Med2.KVArh_t}
+
+	Nome: {@Vlr5_2}
+	Fórmula: {R2_Med2.KWh_t}
+
+	Nome: {@Vlr4_2}
+	Fórmula: {R2_Med2.PotReat_t}
+
+	Nome: {@Vlr3_2}
+	Fórmula: {R2_Med2.PotAt_t}
+
+	Nome: {@Vlr2_2}
+	Fórmula: {R2_Med2.PotAp_t}
+
+	Nome: {@Vlr1_2}
+	Fórmula: {Medidas.FPt}
+
+	Nome: {@Sub3}
+	Fórmula: 'T:'
+
+	Nome: {@Vlr1_3}
+	Fórmula: {R2_Med2.FatPot_TOT}
+
+	Nome: {@Vlr2_3}
+	Fórmula: {R2_Med2.PotAp_TOT}
+
+	Nome: {@Vlr3_3}
+	Fórmula: {R2_Med2.PotAt_TOT}
+
+	Nome: {@Vlr4_3}
+	Fórmula: {R2_Med2.PotReat_TOT}
+
+	Nome: {@Vlr5_3}
+	Fórmula: {R2_Med2.KWh_TOT}
+
+	Nome: {@Vlr6_3}
+	Fórmula: {R2_Med2.KVArh_TOT}
+
+	Nome: {@Vlr7_3}
+	Fórmula: {R2_Med2.ExcKVAr_TOT}
+
+	Nome: {@Vlr8_3}
+	Fórmula: ''
+
+	Nome: {@Sub4}
+	Fórmula: 'Tot:'
+
+5.0 Informações de Seção
+
+5.1 Seção do Cabeçalho da Página
+	Visível, Manter Junto
+
+	Subseção.1 
+		Visível, Manter Junto
+
+	Subseção.2 
+		Visível, Manter Junto
+
+		Fórmulas de Formato
+
+		Visível: PageNumber>1
+
+		
+	Subseção.3 
+		Visível, Manter Junto
+
+		Fórmulas de Formato
+
+		Visível: PageNumber>1
+
+		
+	Subseção.4 
+		Visível, Manter Junto
+
+		Fórmulas de Formato
+
+		Visível: {@TpGrupo}=1
+
+		
+	Subseção.5 
+		Visível, Manter Junto
+
+		Fórmulas de Formato
+
+		Visível: {@Tamanho}<>1 OR {@TpGrupo}=1
+
+		
+	Subseção.6 
+		Visível, Manter Junto
+
+		Fórmulas de Formato
+
+		Visível: {@Tamanho}=1 OR {@TpGrupo}=1
+
+		
+	Subseção.7 
+		Visível, Manter Junto
+
+	ReportTitle
+		Seqüência de Caracteres, Visível, Alinhamento à Esquerda, Alinhamento Superior, 
+		Manter Junto, Usando Formatação Padrão do Sistema, Quebra de Palavra
+
+
+	{@Software}
+		Seqüência de Caracteres, Visível, Alinhamento Padrão, Alinhamento Superior, 
+		Manter Junto, Usando Formatação Padrão do Sistema, Quebra de Palavra
+
+
+	PrintDate
+		Data, Visível, Alinhamento à Direita, Alinhamento Superior, 
+		Manter Junto, Tipo Padrão Windows: Padrões do Windows Não Usados, Ordem de Data: Dia Mês Ano, Tipo de Ano: Longo, Tipo de Mês: Mês Numérico com Zero à Esquerda, Tipo de Dia: Dia Numérico com Zero à Esquerda, Tipo de Dia à Esquerda: Nenhum, Primeiro Separador: '/', Segundo Separador: '/', Separador de Dia à Esquerda: ''
+
+
+	PrintTime
+		Hora, Visível, Alinhamento à Direita, Alinhamento Superior, 
+		Manter Junto, Usando Formatação Padrão do Sistema, Base de Tempo: 24 Horas, Tipo AM/PM: Após AM/PM, Tipo de Hora: Numérico, Tipo de Minuto: Numérico, Tipo de Segundo:Numérico, Seqüência AM: '', Seqüência PM: '', Separador de Hora e Minuto: ':', Separador de Segundo e Minuto: ':'
+
+
+	 
+		Seqüência de Caracteres, Visível, Alinhamento à Esquerda, Alinhamento Superior, 
+		Manter Junto, Expandir
+
+
+		Fórmulas de Formato de Objeto -
+		Visível: Length ({@Faixa})=0
+
+		
+	{@Res05}
+		Seqüência de Caracteres, Visível, Alinhamento à Esquerda, Alinhamento Superior, 
+		Manter Junto, Expandir, Usando Formatação Padrão do Sistema, Quebra de Palavra
+
+
+		Fórmulas de Formato de Objeto -
+		Visível: Length ({@Faixa})=0
+
+			 
+		Seqüência de Caracteres, Visível, Alinhamento à Esquerda, Alinhamento Superior, 
+		Manter Junto, Expandir
+
+
+		Fórmulas de Formato de Objeto -
+		Visível: Length ({@Faixa})=0
+
+		
+	{@Faixa}
+		Seqüência de Caracteres, Visível, Alinhamento à Esquerda, Alinhamento Superior, 
+		Manter Junto, Expandir, Usando Formatação Padrão do Sistema, Quebra de Palavra
+
+
+		Fórmulas de Formato de Objeto -
+		Visível: Length ({@Faixa})=0
+
+			{@LIGACAO}
+		Seqüência de Caracteres, Visível, Alinhamento à Esquerda, Alinhamento Superior, 
+		Manter Junto, Expandir, Usando Formatação Padrão do Sistema, Quebra de Palavra
+
+
+		Fórmulas de Formato de Objeto -
+		Visível: Length ({@Faixa})=0
+
+		
+	{@Faixa2}
+		Seqüência de Caracteres, Visível, Alinhamento Padrão, Alinhamento Superior, 
+		Manter Junto, Expandir, Usando Formatação Padrão do Sistema, Quebra de Palavra
+
+
+	{@CabGrupo}
+		Seqüência de Caracteres, Visível, Alinhamento Padrão, Alinhamento Superior, 
+		Manter Junto, Usando Formatação Padrão do Sistema, Quebra de Palavra
+
+
+	{@Res10}
+		Seqüência de Caracteres, Visível, Alinhamento Central Horizontal, Alinhamento Superior, 
+		Manter Junto, Usando Formatação Padrão do Sistema, Quebra de Palavra
+
+
+	{@Tit1}
+		Seqüência de Caracteres, Visível, Alinhamento à Direita, Alinhamento Superior, 
+		Manter Junto, Expandir, Usando Formatação Padrão do Sistema, Quebra de Palavra
+
+
+	{@Tit2}
+		Seqüência de Caracteres, Visível, Alinhamento à Direita, Alinhamento Superior, 
+		Manter Junto, Expandir, Usando Formatação Padrão do Sistema, Quebra de Palavra
+
+
+	{@Tit3}
+		Seqüência de Caracteres, Visível, Alinhamento à Direita, Alinhamento Superior, 
+		Manter Junto, Expandir, Usando Formatação Padrão do Sistema, Quebra de Palavra
+
+
+	{@Tit4}
+		Seqüência de Caracteres, Visível, Alinhamento à Direita, Alinhamento Superior, 
+		Manter Junto, Expandir, Usando Formatação Padrão do Sistema, Quebra de Palavra
+
+
+	{@Tit5}
+		Seqüência de Caracteres, Visível, Alinhamento à Direita, Alinhamento Superior, 
+		Manter Junto, Expandir, Usando Formatação Padrão do Sistema, Quebra de Palavra
+
+
+	{@Tit6}
+		Seqüência de Caracteres, Visível, Alinhamento à Direita, Alinhamento Superior, 
+		Manter Junto, Expandir, Usando Formatação Padrão do Sistema, Quebra de Palavra
+
+
+	{@Tit7}
+		Seqüência de Caracteres, Visível, Alinhamento à Direita, Alinhamento Superior, 
+		Manter Junto, Expandir, Usando Formatação Padrão do Sistema, Quebra de Palavra
+
+
+	{@Tit8}
+		Seqüência de Caracteres, Visível, Alinhamento à Direita, Alinhamento Superior, 
+		Manter Junto, Expandir, Usando Formatação Padrão do Sistema, Quebra de Palavra
+
+
+	{@Res11}
+		Seqüência de Caracteres, Visível, Alinhamento Central Horizontal, Alinhamento Superior, 
+		Manter Junto, Usando Formatação Padrão do Sistema, Quebra de Palavra
+
+
+	{@Tit1}
+		Seqüência de Caracteres, Visível, Alinhamento à Direita, Alinhamento Superior, 
+		Manter Junto, Expandir, Usando Formatação Padrão do Sistema, Quebra de Palavra
+
+
+	{@Tit2}
+		Seqüência de Caracteres, Visível, Alinhamento à Direita, Alinhamento Superior, 
+		Manter Junto, Expandir, Usando Formatação Padrão do Sistema, Quebra de Palavra
+
+
+	{@Tit3}
+		Seqüência de Caracteres, Visível, Alinhamento à Direita, Alinhamento Superior, 
+		Manter Junto, Expandir, Usando Formatação Padrão do Sistema, Quebra de Palavra
+
+
+	{@Tit4}
+		Seqüência de Caracteres, Visível, Alinhamento à Direita, Alinhamento Superior, 
+		Manter Junto, Expandir, Usando Formatação Padrão do Sistema, Quebra de Palavra
+
+
+	{@Tit5}
+		Seqüência de Caracteres, Visível, Alinhamento à Direita, Alinhamento Superior, 
+		Manter Junto, Expandir, Usando Formatação Padrão do Sistema, Quebra de Palavra
+
+
+	{@Tit6}
+		Seqüência de Caracteres, Visível, Alinhamento à Direita, Alinhamento Superior, 
+		Manter Junto, Expandir, Usando Formatação Padrão do Sistema, Quebra de Palavra
+
+
+	{@Tit7}
+		Seqüência de Caracteres, Visível, Alinhamento à Direita, Alinhamento Superior, 
+		Manter Junto, Expandir, Usando Formatação Padrão do Sistema, Quebra de Palavra
+
+
+	{@Tit8}
+		Seqüência de Caracteres, Visível, Alinhamento à Direita, Alinhamento Superior, 
+		Manter Junto, Expandir, Usando Formatação Padrão do Sistema, Quebra de Palavra
+
+
+5.2 Seção do Rodapé da Página
+	Visível, Nova Página Após, Imprimir na Parte Inferior da Página
+
+	Pág.: 
+		Seqüência de Caracteres, Visível, Alinhamento à Direita, Alinhamento Superior, 
+		Manter Junto, Expandir
+
+
+	PageNumber
+		Numérico, Visível, Alinhamento à Direita, Alinhamento Superior, 
+		Manter Junto, Expandir, Usando Formatação Padrão do Sistema, 
+		Sinal de Menos à Esquerda, 0 Casa Decimais, Arredondamento: 1, 
+		Símbolo de Milhares: '.', Símbolo Decimal: ','
+
+
+5.3 Seção do Cabeçalho do Relatório
+	Visível, Nova Página Antes
+
+	Subseção.1 
+		Visível, Manter Junto
+
+	Subseção.2 
+		Visível, Manter Junto
+
+		Fórmulas de Formato
+
+		Visível: Length({@LocalCol})=0
+
+		
+	{@1ENDERECO}
+		Seqüência de Caracteres, Visível, Alinhamento Padrão, Alinhamento Superior, 
+		Manter Junto, Usando Formatação Padrão do Sistema, Quebra de Palavra
+
+
+	{@1EMPRESA}
+		Seqüência de Caracteres, Visível, Alinhamento Padrão, Alinhamento Superior, 
+		Manter Junto, Usando Formatação Padrão do Sistema, Quebra de Palavra
+
+
+	{@Res01}
+		Seqüência de Caracteres, Visível, Alinhamento à Esquerda, Alinhamento Superior, 
+		Manter Junto, Expandir, Usando Formatação Padrão do Sistema, Quebra de Palavra
+
+	 
+		Seqüência de Caracteres, Visível, Alinhamento à Esquerda, Alinhamento Superior, 
+		Manter Junto, Expandir
+
+
+	{@1FONE}
+		Seqüência de Caracteres, Visível, Alinhamento à Esquerda, Alinhamento Superior, 
+		Manter Junto, Expandir, Usando Formatação Padrão do Sistema, Quebra de Palavra
+
+
+	{@Res02}
+		Seqüência de Caracteres, Visível, Alinhamento à Esquerda, Alinhamento Superior, 
+		Manter Junto, Expandir, Usando Formatação Padrão do Sistema, Quebra de Palavra
+
+	 
+		Seqüência de Caracteres, Visível, Alinhamento à Esquerda, Alinhamento Superior, 
+		Manter Junto, Expandir
+
+
+	{@1CNPJ}
+		Seqüência de Caracteres, Visível, Alinhamento à Esquerda, Alinhamento Superior, 
+		Manter Junto, Expandir, Usando Formatação Padrão do Sistema, Quebra de Palavra
+
+
+	{@Res03}
+		Seqüência de Caracteres, Visível, Alinhamento à Esquerda, Alinhamento Superior, 
+		Manter Junto, Expandir, Usando Formatação Padrão do Sistema, Quebra de Palavra
+
+	 
+		Seqüência de Caracteres, Visível, Alinhamento à Esquerda, Alinhamento Superior, 
+		Manter Junto, Expandir
+
+
+	{@1CEP}
+		Seqüência de Caracteres, Visível, Alinhamento à Esquerda, Alinhamento Superior, 
+		Manter Junto, Expandir, Usando Formatação Padrão do Sistema, Quebra de Palavra
+
+
+	{@Res04}
+		Seqüência de Caracteres, Visível, Alinhamento Central Horizontal, Alinhamento Superior, 
+		Manter Junto, Expandir, Usando Formatação Padrão do Sistema, Quebra de Palavra
+
+
+		Fórmulas de Formato de Objeto -
+		Visível: 
+
+			 
+		Seqüência de Caracteres, Visível, Alinhamento Central Horizontal, Alinhamento Superior, 
+		Manter Junto, Expandir
+
+
+		Fórmulas de Formato de Objeto -
+		Visível: 
+
+		
+	{@LocalCol}
+		Seqüência de Caracteres, Visível, Alinhamento Central Horizontal, Alinhamento Superior, 
+		Manter Junto, Expandir, Usando Formatação Padrão do Sistema, Quebra de Palavra
+
+
+		Fórmulas de Formato de Objeto -
+		Visível: 
+
+			  
+		Seqüência de Caracteres, Visível, Alinhamento Central Horizontal, Alinhamento Superior, 
+		Manter Junto, Expandir
+
+
+		Fórmulas de Formato de Objeto -
+		Visível: 
+
+		
+	{@LIGACAO}
+		Seqüência de Caracteres, Visível, Alinhamento Central Horizontal, Alinhamento Superior, 
+		Manter Junto, Expandir, Usando Formatação Padrão do Sistema, Quebra de Palavra
+
+
+		Fórmulas de Formato de Objeto -
+		Visível: 
+
+		
+5.4 Seção do Rodapé do Relatório
+	Visível
+
+	Subseção.1 
+		Visível, Manter Junto
+
+		Fórmulas de Formato
+
+		Visível: {@Tamanho}<>1
+		
+	Subseção.2 
+		Visível, Manter Junto, Suprimir Seções em Branco
+
+		Fórmulas de Formato
+
+		Visível: {@Tamanho}<>1
+
+		
+	Subseção.3 
+		Visível, Manter Junto, Suprimir Seções em Branco
+
+		Fórmulas de Formato
+
+		Visível: {@Tamanho}<>1
+
+		
+	Subseção.4 
+		Visível, Manter Junto, Suprimir Seções em Branco
+
+		Fórmulas de Formato
+
+		Visível: {@Tamanho}<>1
+
+		
+	Subseção.5 
+		Visível, Manter Junto
+
+		Fórmulas de Formato
+
+		Visível: {@Tamanho}=1
+
+		
+	Subseção.6 
+		Visível, Manter Junto, Suprimir Seções em Branco
+
+		Fórmulas de Formato
+
+		Visível: {@Tamanho}=1
+
+		
+	Subseção.7 
+		Visível, Manter Junto, Suprimir Seções em Branco
+
+		Fórmulas de Formato
+
+		Visível: {@Tamanho}=1
+
+		
+	Subseção.8 
+		Visível, Manter Junto, Suprimir Seções em Branco
+
+		Fórmulas de Formato
+
+		Visível: {@Tamanho}=1
+
+		
+	Subseção.9 
+		Visível, Manter Junto
+
+	Sumario: 
+		Seqüência de Caracteres, Visível, Alinhamento à Direita, Alinhamento Superior, 
+		Manter Junto
+
+
+
+	{@Sub1}
+		Seqüência de Caracteres, Visível, Alinhamento à Direita, Alinhamento Superior, 
+		Manter Junto, Usando Formatação Padrão do Sistema, Quebra de Palavra
+
+
+	{@Tot1_0}
+		Seqüência de Caracteres, Visível, Alinhamento Padrão, Alinhamento Superior, 
+		Manter Junto, Usando Formatação Padrão do Sistema, Quebra de Palavra
+
+
+	{@Tot2_0}
+		Numérico, Visível, Alinhamento Padrão, Alinhamento Superior, 
+		Manter Junto, Usando Formatação Padrão do Sistema, 
+		Sinal de Menos à Esquerda, 2 Casa Decimais, Arredondamento: 0.01, 
+		Símbolo de Milhares: '.', Símbolo Decimal: ','
+
+
+	{@Tot3_0}
+		Numérico, Visível, Alinhamento Padrão, Alinhamento Superior, 
+		Manter Junto, Usando Formatação Padrão do Sistema, 
+		Sinal de Menos à Esquerda, 2 Casa Decimais, Arredondamento: 0.01, 
+		Símbolo de Milhares: '.', Símbolo Decimal: ','
+
+
+	{@Tot4_0}
+		Numérico, Visível, Alinhamento Padrão, Alinhamento Superior, 
+		Manter Junto, Usando Formatação Padrão do Sistema, 
+		Sinal de Menos à Esquerda, 2 Casa Decimais, Arredondamento: 0.01, 
+		Símbolo de Milhares: '.', Símbolo Decimal: ','
+
+
+	{@Tot5_0}
+		Numérico, Visível, Alinhamento Padrão, Alinhamento Superior, 
+		Manter Junto, Usando Formatação Padrão do Sistema, 
+		Sinal de Menos à Esquerda, 2 Casa Decimais, Arredondamento: 0.01, 
+		Símbolo de Milhares: '.', Símbolo Decimal: ','
+
+
+	{@Tot6_0}
+		Numérico, Visível, Alinhamento Padrão, Alinhamento Superior, 
+		Manter Junto, Usando Formatação Padrão do Sistema, 
+		Sinal de Menos à Esquerda, 2 Casa Decimais, Arredondamento: 0.01, 
+		Símbolo de Milhares: '.', Símbolo Decimal: ','
+
+
+	{@Tot7_0}
+		Numérico, Visível, Alinhamento Padrão, Alinhamento Superior, 
+		Manter Junto, Usando Formatação Padrão do Sistema, 
+		Sinal de Menos à Esquerda, 2 Casa Decimais, Arredondamento: 0.01, 
+		Símbolo de Milhares: '.', Símbolo Decimal: ','
+
+
+	{@Tot8_0}
+		Seqüência de Caracteres, Visível, Alinhamento Padrão, Alinhamento Superior, 
+		Manter Junto, Usando Formatação Padrão do Sistema, Quebra de Palavra
+
+
+	{@Sub2}
+		Seqüência de Caracteres, Visível, Alinhamento à Direita, Alinhamento Superior, 
+		Manter Junto, Usando Formatação Padrão do Sistema, Quebra de Palavra
+
+
+	{@Tot1_1}
+		Seqüência de Caracteres, Visível, Alinhamento Padrão, Alinhamento Superior, 
+		Manter Junto, Usando Formatação Padrão do Sistema, Quebra de Palavra
+
+
+	{@Tot2_1}
+		Numérico, Visível, Alinhamento Padrão, Alinhamento Superior, 
+		Manter Junto, Usando Formatação Padrão do Sistema, 
+		Sinal de Menos à Esquerda, 2 Casa Decimais, Arredondamento: 0.01, 
+		Símbolo de Milhares: '.', Símbolo Decimal: ','
+
+
+	{@Tot3_1}
+		Numérico, Visível, Alinhamento Padrão, Alinhamento Superior, 
+		Manter Junto, Usando Formatação Padrão do Sistema, 
+		Sinal de Menos à Esquerda, 2 Casa Decimais, Arredondamento: 0.01, 
+		Símbolo de Milhares: '.', Símbolo Decimal: ','
+
+
+	{@Tot4_1}
+		Numérico, Visível, Alinhamento Padrão, Alinhamento Superior, 
+		Manter Junto, Usando Formatação Padrão do Sistema, 
+		Sinal de Menos à Esquerda, 2 Casa Decimais, Arredondamento: 0.01, 
+		Símbolo de Milhares: '.', Símbolo Decimal: ','
+
+
+	{@Tot5_1}
+		Numérico, Visível, Alinhamento Padrão, Alinhamento Superior, 
+		Manter Junto, Usando Formatação Padrão do Sistema, 
+		Sinal de Menos à Esquerda, 2 Casa Decimais, Arredondamento: 0.01, 
+		Símbolo de Milhares: '.', Símbolo Decimal: ','
+
+
+	{@Tot6_1}
+		Numérico, Visível, Alinhamento Padrão, Alinhamento Superior, 
+		Manter Junto, Usando Formatação Padrão do Sistema, 
+		Sinal de Menos à Esquerda, 2 Casa Decimais, Arredondamento: 0.01, 
+		Símbolo de Milhares: '.', Símbolo Decimal: ','
+
+
+	{@Tot7_1}
+		Numérico, Visível, Alinhamento Padrão, Alinhamento Superior, 
+		Manter Junto, Usando Formatação Padrão do Sistema, 
+		Sinal de Menos à Esquerda, 2 Casa Decimais, Arredondamento: 0.01, 
+		Símbolo de Milhares: '.', Símbolo Decimal: ','
+
+
+	{@Tot8_1}
+		Seqüência de Caracteres, Visível, Alinhamento Padrão, Alinhamento Superior, 
+		Manter Junto, Usando Formatação Padrão do Sistema, Quebra de Palavra
+
+
+	{@Sub3}
+		Seqüência de Caracteres, Visível, Alinhamento à Direita, Alinhamento Superior, 
+		Manter Junto, Usando Formatação Padrão do Sistema, Quebra de Palavra
+
+
+	{@Tot1_2}
+		Seqüência de Caracteres, Visível, Alinhamento Padrão, Alinhamento Superior, 
+		Manter Junto, Usando Formatação Padrão do Sistema, Quebra de Palavra
+
+
+	{@Tot2_2}
+		Numérico, Visível, Alinhamento Padrão, Alinhamento Superior, 
+		Manter Junto, Usando Formatação Padrão do Sistema, 
+		Sinal de Menos à Esquerda, 2 Casa Decimais, Arredondamento: 0.01, 
+		Símbolo de Milhares: '.', Símbolo Decimal: ','
+
+
+	{@Tot3_2}
+		Numérico, Visível, Alinhamento Padrão, Alinhamento Superior, 
+		Manter Junto, Usando Formatação Padrão do Sistema, 
+		Sinal de Menos à Esquerda, 2 Casa Decimais, Arredondamento: 0.01, 
+		Símbolo de Milhares: '.', Símbolo Decimal: ','
+
+
+	{@Tot4_2}
+		Numérico, Visível, Alinhamento Padrão, Alinhamento Superior, 
+		Manter Junto, Usando Formatação Padrão do Sistema, 
+		Sinal de Menos à Esquerda, 2 Casa Decimais, Arredondamento: 0.01, 
+		Símbolo de Milhares: '.', Símbolo Decimal: ','
+
+
+	{@Tot5_2}
+		Numérico, Visível, Alinhamento Padrão, Alinhamento Superior, 
+		Manter Junto, Usando Formatação Padrão do Sistema, 
+		Sinal de Menos à Esquerda, 2 Casa Decimais, Arredondamento: 0.01, 
+		Símbolo de Milhares: '.', Símbolo Decimal: ','
+
+
+	{@Tot6_2}
+		Numérico, Visível, Alinhamento Padrão, Alinhamento Superior, 
+		Manter Junto, Usando Formatação Padrão do Sistema, 
+		Sinal de Menos à Esquerda, 2 Casa Decimais, Arredondamento: 0.01, 
+		Símbolo de Milhares: '.', Símbolo Decimal: ','
+
+
+	{@Tot7_2}
+		Numérico, Visível, Alinhamento Padrão, Alinhamento Superior, 
+		Manter Junto, Usando Formatação Padrão do Sistema, 
+		Sinal de Menos à Esquerda, 2 Casa Decimais, Arredondamento: 0.01, 
+		Símbolo de Milhares: '.', Símbolo Decimal: ','
+
+
+	{@Tot8_2}
+		Seqüência de Caracteres, Visível, Alinhamento Padrão, Alinhamento Superior, 
+		Manter Junto, Usando Formatação Padrão do Sistema, Quebra de Palavra
+
+
+	{@Sub4}
+		Seqüência de Caracteres, Visível, Alinhamento à Direita, Alinhamento Superior, 
+		Manter Junto, Usando Formatação Padrão do Sistema, Quebra de Palavra
+
+
+	{@Tot1_3}
+		Seqüência de Caracteres, Visível, Alinhamento Padrão, Alinhamento Superior, 
+		Manter Junto, Usando Formatação Padrão do Sistema, Quebra de Palavra
+
+
+	{@Tot2_3}
+		Numérico, Visível, Alinhamento Padrão, Alinhamento Superior, 
+		Manter Junto, Usando Formatação Padrão do Sistema, 
+		Sinal de Menos à Esquerda, 2 Casa Decimais, Arredondamento: 0.01, 
+		Símbolo de Milhares: '.', Símbolo Decimal: ','
+
+
+	{@Tot3_3}
+		Numérico, Visível, Alinhamento Padrão, Alinhamento Superior, 
+		Manter Junto, Usando Formatação Padrão do Sistema, 
+		Sinal de Menos à Esquerda, 2 Casa Decimais, Arredondamento: 0.01, 
+		Símbolo de Milhares: '.', Símbolo Decimal: ','
+
+
+	{@Tot4_3}
+		Numérico, Visível, Alinhamento Padrão, Alinhamento Superior, 
+		Manter Junto, Usando Formatação Padrão do Sistema, 
+		Sinal de Menos à Esquerda, 2 Casa Decimais, Arredondamento: 0.01, 
+		Símbolo de Milhares: '.', Símbolo Decimal: ','
+
+
+	{@Tot5_3}
+		Numérico, Visível, Alinhamento Padrão, Alinhamento Superior, 
+		Manter Junto, Usando Formatação Padrão do Sistema, 
+		Sinal de Menos à Esquerda, 2 Casa Decimais, Arredondamento: 0.01, 
+		Símbolo de Milhares: '.', Símbolo Decimal: ','
+
+
+	{@Tot6_3}
+		Numérico, Visível, Alinhamento Padrão, Alinhamento Superior, 
+		Manter Junto, Usando Formatação Padrão do Sistema, 
+		Sinal de Menos à Esquerda, 2 Casa Decimais, Arredondamento: 0.01, 
+		Símbolo de Milhares: '.', Símbolo Decimal: ','
+
+
+	{@Tot7_3}
+		Numérico, Visível, Alinhamento Padrão, Alinhamento Superior, 
+		Manter Junto, Usando Formatação Padrão do Sistema, 
+		Sinal de Menos à Esquerda, 2 Casa Decimais, Arredondamento: 0.01, 
+		Símbolo de Milhares: '.', Símbolo Decimal: ','
+
+
+	{@Tot8_3}
+		Seqüência de Caracteres, Visível, Alinhamento Padrão, Alinhamento Superior, 
+		Manter Junto, Usando Formatação Padrão do Sistema, Quebra de Palavra
+
+
+	Sumario: 
+		Seqüência de Caracteres, Visível, Alinhamento à Direita, Alinhamento Superior, 
+		Manter Junto
+
+
+
+	{@Sub1}
+		Seqüência de Caracteres, Visível, Alinhamento à Direita, Alinhamento Superior, 
+		Manter Junto, Usando Formatação Padrão do Sistema, Quebra de Palavra
+
+
+	{@Tot1_0}
+		Seqüência de Caracteres, Visível, Alinhamento Padrão, Alinhamento Superior, 
+		Manter Junto, Usando Formatação Padrão do Sistema, Quebra de Palavra
+
+
+	{@Tot2_0}
+		Numérico, Visível, Alinhamento Padrão, Alinhamento Superior, 
+		Manter Junto, Usando Formatação Padrão do Sistema, 
+		Sinal de Menos à Esquerda, 2 Casa Decimais, Arredondamento: 0.01, 
+		Símbolo de Milhares: '.', Símbolo Decimal: ','
+
+
+	{@Tot3_0}
+		Numérico, Visível, Alinhamento Padrão, Alinhamento Superior, 
+		Manter Junto, Usando Formatação Padrão do Sistema, 
+		Sinal de Menos à Esquerda, 2 Casa Decimais, Arredondamento: 0.01, 
+		Símbolo de Milhares: '.', Símbolo Decimal: ','
+
+
+	{@Tot4_0}
+		Numérico, Visível, Alinhamento Padrão, Alinhamento Superior, 
+		Manter Junto, Usando Formatação Padrão do Sistema, 
+		Sinal de Menos à Esquerda, 2 Casa Decimais, Arredondamento: 0.01, 
+		Símbolo de Milhares: '.', Símbolo Decimal: ','
+
+
+	{@Tot5_0}
+		Numérico, Visível, Alinhamento Padrão, Alinhamento Superior, 
+		Manter Junto, Usando Formatação Padrão do Sistema, 
+		Sinal de Menos à Esquerda, 2 Casa Decimais, Arredondamento: 0.01, 
+		Símbolo de Milhares: '.', Símbolo Decimal: ','
+
+
+	{@Tot6_0}
+		Numérico, Visível, Alinhamento Padrão, Alinhamento Superior, 
+		Manter Junto, Usando Formatação Padrão do Sistema, 
+		Sinal de Menos à Esquerda, 2 Casa Decimais, Arredondamento: 0.01, 
+		Símbolo de Milhares: '.', Símbolo Decimal: ','
+
+
+	{@Tot7_0}
+		Numérico, Visível, Alinhamento Padrão, Alinhamento Superior, 
+		Manter Junto, Usando Formatação Padrão do Sistema, 
+		Sinal de Menos à Esquerda, 2 Casa Decimais, Arredondamento: 0.01, 
+		Símbolo de Milhares: '.', Símbolo Decimal: ','
+
+
+	{@Tot8_0}
+		Seqüência de Caracteres, Visível, Alinhamento Padrão, Alinhamento Superior, 
+		Manter Junto, Usando Formatação Padrão do Sistema, Quebra de Palavra
+
+
+	{@Sub2}
+		Seqüência de Caracteres, Visível, Alinhamento à Direita, Alinhamento Superior, 
+		Manter Junto, Usando Formatação Padrão do Sistema, Quebra de Palavra
+
+
+	{@Tot1_1}
+		Seqüência de Caracteres, Visível, Alinhamento Padrão, Alinhamento Superior, 
+		Manter Junto, Usando Formatação Padrão do Sistema, Quebra de Palavra
+
+
+	{@Tot2_1}
+		Numérico, Visível, Alinhamento Padrão, Alinhamento Superior, 
+		Manter Junto, Usando Formatação Padrão do Sistema, 
+		Sinal de Menos à Esquerda, 2 Casa Decimais, Arredondamento: 0.01, 
+		Símbolo de Milhares: '.', Símbolo Decimal: ','
+
+
+	{@Tot3_1}
+		Numérico, Visível, Alinhamento Padrão, Alinhamento Superior, 
+		Manter Junto, Usando Formatação Padrão do Sistema, 
+		Sinal de Menos à Esquerda, 2 Casa Decimais, Arredondamento: 0.01, 
+		Símbolo de Milhares: '.', Símbolo Decimal: ','
+
+
+	{@Tot4_1}
+		Numérico, Visível, Alinhamento Padrão, Alinhamento Superior, 
+		Manter Junto, Usando Formatação Padrão do Sistema, 
+		Sinal de Menos à Esquerda, 2 Casa Decimais, Arredondamento: 0.01, 
+		Símbolo de Milhares: '.', Símbolo Decimal: ','
+
+
+	{@Tot5_1}
+		Numérico, Visível, Alinhamento Padrão, Alinhamento Superior, 
+		Manter Junto, Usando Formatação Padrão do Sistema, 
+		Sinal de Menos à Esquerda, 2 Casa Decimais, Arredondamento: 0.01, 
+		Símbolo de Milhares: '.', Símbolo Decimal: ','
+
+
+	{@Tot6_1}
+		Numérico, Visível, Alinhamento Padrão, Alinhamento Superior, 
+		Manter Junto, Usando Formatação Padrão do Sistema, 
+		Sinal de Menos à Esquerda, 2 Casa Decimais, Arredondamento: 0.01, 
+		Símbolo de Milhares: '.', Símbolo Decimal: ','
+
+
+	{@Tot7_1}
+		Numérico, Visível, Alinhamento Padrão, Alinhamento Superior, 
+		Manter Junto, Usando Formatação Padrão do Sistema, 
+		Sinal de Menos à Esquerda, 2 Casa Decimais, Arredondamento: 0.01, 
+		Símbolo de Milhares: '.', Símbolo Decimal: ','
+
+
+	{@Tot8_1}
+		Seqüência de Caracteres, Visível, Alinhamento Padrão, Alinhamento Superior, 
+		Manter Junto, Usando Formatação Padrão do Sistema, Quebra de Palavra
+
+
+	{@Sub3}
+		Seqüência de Caracteres, Visível, Alinhamento à Direita, Alinhamento Superior, 
+		Manter Junto, Usando Formatação Padrão do Sistema, Quebra de Palavra
+
+
+	{@Tot1_2}
+		Seqüência de Caracteres, Visível, Alinhamento Padrão, Alinhamento Superior, 
+		Manter Junto, Usando Formatação Padrão do Sistema, Quebra de Palavra
+
+
+	{@Tot2_2}
+		Numérico, Visível, Alinhamento Padrão, Alinhamento Superior, 
+		Manter Junto, Usando Formatação Padrão do Sistema, 
+		Sinal de Menos à Esquerda, 2 Casa Decimais, Arredondamento: 0.01, 
+		Símbolo de Milhares: '.', Símbolo Decimal: ','
+
+
+	{@Tot3_2}
+		Numérico, Visível, Alinhamento Padrão, Alinhamento Superior, 
+		Manter Junto, Usando Formatação Padrão do Sistema, 
+		Sinal de Menos à Esquerda, 2 Casa Decimais, Arredondamento: 0.01, 
+		Símbolo de Milhares: '.', Símbolo Decimal: ','
+
+
+	{@Tot4_2}
+		Numérico, Visível, Alinhamento Padrão, Alinhamento Superior, 
+		Manter Junto, Usando Formatação Padrão do Sistema, 
+		Sinal de Menos à Esquerda, 2 Casa Decimais, Arredondamento: 0.01, 
+		Símbolo de Milhares: '.', Símbolo Decimal: ','
+
+
+	{@Tot5_2}
+		Numérico, Visível, Alinhamento Padrão, Alinhamento Superior, 
+		Manter Junto, Usando Formatação Padrão do Sistema, 
+		Sinal de Menos à Esquerda, 2 Casa Decimais, Arredondamento: 0.01, 
+		Símbolo de Milhares: '.', Símbolo Decimal: ','
+
+
+	{@Tot6_2}
+		Numérico, Visível, Alinhamento Padrão, Alinhamento Superior, 
+		Manter Junto, Usando Formatação Padrão do Sistema, 
+		Sinal de Menos à Esquerda, 2 Casa Decimais, Arredondamento: 0.01, 
+		Símbolo de Milhares: '.', Símbolo Decimal: ','
+
+
+	{@Tot7_2}
+		Numérico, Visível, Alinhamento Padrão, Alinhamento Superior, 
+		Manter Junto, Usando Formatação Padrão do Sistema, 
+		Sinal de Menos à Esquerda, 2 Casa Decimais, Arredondamento: 0.01, 
+		Símbolo de Milhares: '.', Símbolo Decimal: ','
+
+
+	{@Tot8_2}
+		Seqüência de Caracteres, Visível, Alinhamento Padrão, Alinhamento Superior, 
+		Manter Junto, Usando Formatação Padrão do Sistema, Quebra de Palavra
+
+
+	{@Sub4}
+		Seqüência de Caracteres, Visível, Alinhamento à Direita, Alinhamento Superior, 
+		Manter Junto, Usando Formatação Padrão do Sistema, Quebra de Palavra
+
+
+	{@Tot1_3}
+		Seqüência de Caracteres, Visível, Alinhamento Padrão, Alinhamento Superior, 
+		Manter Junto, Usando Formatação Padrão do Sistema, Quebra de Palavra
+
+
+	{@Tot2_3}
+		Numérico, Visível, Alinhamento Padrão, Alinhamento Superior, 
+		Manter Junto, Usando Formatação Padrão do Sistema, 
+		Sinal de Menos à Esquerda, 2 Casa Decimais, Arredondamento: 0.01, 
+		Símbolo de Milhares: '.', Símbolo Decimal: ','
+
+
+	{@Tot3_3}
+		Numérico, Visível, Alinhamento Padrão, Alinhamento Superior, 
+		Manter Junto, Usando Formatação Padrão do Sistema, 
+		Sinal de Menos à Esquerda, 2 Casa Decimais, Arredondamento: 0.01, 
+		Símbolo de Milhares: '.', Símbolo Decimal: ','
+
+
+	{@Tot4_3}
+		Numérico, Visível, Alinhamento Padrão, Alinhamento Superior, 
+		Manter Junto, Usando Formatação Padrão do Sistema, 
+		Sinal de Menos à Esquerda, 2 Casa Decimais, Arredondamento: 0.01, 
+		Símbolo de Milhares: '.', Símbolo Decimal: ','
+
+
+	{@Tot5_3}
+		Numérico, Visível, Alinhamento Padrão, Alinhamento Superior, 
+		Manter Junto, Usando Formatação Padrão do Sistema, 
+		Sinal de Menos à Esquerda, 2 Casa Decimais, Arredondamento: 0.01, 
+		Símbolo de Milhares: '.', Símbolo Decimal: ','
+
+
+	{@Tot6_3}
+		Numérico, Visível, Alinhamento Padrão, Alinhamento Superior, 
+		Manter Junto, Usando Formatação Padrão do Sistema, 
+		Sinal de Menos à Esquerda, 2 Casa Decimais, Arredondamento: 0.01, 
+		Símbolo de Milhares: '.', Símbolo Decimal: ','
+
+
+	{@Tot7_3}
+		Numérico, Visível, Alinhamento Padrão, Alinhamento Superior, 
+		Manter Junto, Usando Formatação Padrão do Sistema, 
+		Sinal de Menos à Esquerda, 2 Casa Decimais, Arredondamento: 0.01, 
+		Símbolo de Milhares: '.', Símbolo Decimal: ','
+
+
+	{@Tot8_3}
+		Seqüência de Caracteres, Visível, Alinhamento Padrão, Alinhamento Superior, 
+		Manter Junto, Usando Formatação Padrão do Sistema, Quebra de Palavra
+
+
+	{@Res12}
+		Seqüência de Caracteres, Visível, Alinhamento Central Horizontal, Alinhamento Superior, 
+		Manter Junto, Usando Formatação Padrão do Sistema, Quebra de Palavra
+
+
+5.5 Seção do Cabeçalho do Grupo
+	Visível, Manter Junto
+
+	Subseção.1 
+		Visível, Manter Junto
+
+		Fórmulas de Formato
+
+		Visível: {@TpGrupo}<>1
+
+		
+	Subseção.2 
+		Visível, Manter Junto
+
+		Fórmulas de Formato
+
+		Visível: {@Tamanho}<>1 OR {@TpGrupo}<>1
+
+		
+	Subseção.3 
+		Visível, Manter Junto
+
+		Fórmulas de Formato
+
+		Visível: {@Tamanho}=1 OR {@TpGrupo}<>1
+
+		
+	Subseção.4 
+		Visível, Manter Junto
+
+		Fórmulas de Formato
+
+		Visível: {@TpGrupo}<>1
+
+		
+	{@CabGrupo}
+		Seqüência de Caracteres, Visível, Alinhamento Padrão, Alinhamento Superior, 
+		Manter Junto, Usando Formatação Padrão do Sistema, Quebra de Palavra
+
+
+	{@Tit1}
+		Seqüência de Caracteres, Visível, Alinhamento à Direita, Alinhamento Superior, 
+		Manter Junto, Expandir, Usando Formatação Padrão do Sistema, Quebra de Palavra
+
+
+	{@Tit8}
+		Seqüência de Caracteres, Visível, Alinhamento à Direita, Alinhamento Superior, 
+		Manter Junto, Expandir, Usando Formatação Padrão do Sistema, Quebra de Palavra
+
+
+	{@Tit7}
+		Seqüência de Caracteres, Visível, Alinhamento à Direita, Alinhamento Superior, 
+		Manter Junto, Expandir, Usando Formatação Padrão do Sistema, Quebra de Palavra
+
+
+	{@Tit6}
+		Seqüência de Caracteres, Visível, Alinhamento à Direita, Alinhamento Superior, 
+		Manter Junto, Expandir, Usando Formatação Padrão do Sistema, Quebra de Palavra
+
+
+	{@Tit5}
+		Seqüência de Caracteres, Visível, Alinhamento à Direita, Alinhamento Superior, 
+		Manter Junto, Expandir, Usando Formatação Padrão do Sistema, Quebra de Palavra
+
+
+	{@Tit4}
+		Seqüência de Caracteres, Visível, Alinhamento à Direita, Alinhamento Superior, 
+		Manter Junto, Expandir, Usando Formatação Padrão do Sistema, Quebra de Palavra
+
+
+	{@Tit3}
+		Seqüência de Caracteres, Visível, Alinhamento à Direita, Alinhamento Superior, 
+		Manter Junto, Expandir, Usando Formatação Padrão do Sistema, Quebra de Palavra
+
+
+	{@Tit2}
+		Seqüência de Caracteres, Visível, Alinhamento à Direita, Alinhamento Superior, 
+		Manter Junto, Expandir, Usando Formatação Padrão do Sistema, Quebra de Palavra
+
+
+	{@Res10}
+		Seqüência de Caracteres, Visível, Alinhamento Central Horizontal, Alinhamento Superior, 
+		Manter Junto, Usando Formatação Padrão do Sistema, Quebra de Palavra
+
+
+		Fórmulas de Formato de Objeto -
+		Visível: {@Grupo}<>ToText({Medidas.DATA},"yyyy/MM/dd")
+
+		
+	{@Tit1}
+		Seqüência de Caracteres, Visível, Alinhamento à Direita, Alinhamento Superior, 
+		Manter Junto, Expandir, Usando Formatação Padrão do Sistema, Quebra de Palavra
+
+
+	{@Tit2}
+		Seqüência de Caracteres, Visível, Alinhamento à Direita, Alinhamento Superior, 
+		Manter Junto, Expandir, Usando Formatação Padrão do Sistema, Quebra de Palavra
+
+
+	{@Tit3}
+		Seqüência de Caracteres, Visível, Alinhamento à Direita, Alinhamento Superior, 
+		Manter Junto, Expandir, Usando Formatação Padrão do Sistema, Quebra de Palavra
+
+
+	{@Tit4}
+		Seqüência de Caracteres, Visível, Alinhamento à Direita, Alinhamento Superior, 
+		Manter Junto, Expandir, Usando Formatação Padrão do Sistema, Quebra de Palavra
+
+
+	{@Tit5}
+		Seqüência de Caracteres, Visível, Alinhamento à Direita, Alinhamento Superior, 
+		Manter Junto, Expandir, Usando Formatação Padrão do Sistema, Quebra de Palavra
+
+
+	{@Tit6}
+		Seqüência de Caracteres, Visível, Alinhamento à Direita, Alinhamento Superior, 
+		Manter Junto, Expandir, Usando Formatação Padrão do Sistema, Quebra de Palavra
+
+
+	{@Tit7}
+		Seqüência de Caracteres, Visível, Alinhamento à Direita, Alinhamento Superior, 
+		Manter Junto, Expandir, Usando Formatação Padrão do Sistema, Quebra de Palavra
+
+
+	{@Tit8}
+		Seqüência de Caracteres, Visível, Alinhamento à Direita, Alinhamento Superior, 
+		Manter Junto, Expandir, Usando Formatação Padrão do Sistema, Quebra de Palavra
+
+
+	{@Res11}
+		Seqüência de Caracteres, Visível, Alinhamento Central Horizontal, Alinhamento Superior, 
+		Manter Junto, Usando Formatação Padrão do Sistema, Quebra de Palavra
+
+
+		Fórmulas de Formato de Objeto -
+		Visível: {@Grupo}<>ToText({Medidas.DATA},"yyyy/MM/dd")
+
+		
+5.6 Seção do Rodapé do Grupo
+	Visível
+
+	Subseção.1 
+		Visível, Manter Junto
+
+		Fórmulas de Formato
+
+		Visível: {@TpGrupo}<>1
+
+		
+	Subseção.2 
+		Visível, Manter Junto
+
+		Fórmulas de Formato
+
+		Visível: {@Tamanho}<>1
+
+		
+	Subseção.3 
+		Visível, Manter Junto, Suprimir Seções em Branco
+
+		Fórmulas de Formato
+
+		Visível: {@Tamanho}<>1
+
+		
+	Subseção.4 
+		Visível, Manter Junto, Suprimir Seções em Branco
+
+		Fórmulas de Formato
+
+		Visível: {@Tamanho}<>1
+
+		
+	Subseção.5 
+		Visível, Manter Junto, Suprimir Seções em Branco
+
+		Fórmulas de Formato
+
+		Visível: {@Tamanho}<>1
+
+		
+	Subseção.6 
+		Visível, Manter Junto, Suprimir Seções em Branco
+
+		Fórmulas de Formato
+
+		Visível: {@Tamanho}=1
+
+		
+	Subseção.7 
+		Visível, Manter Junto, Suprimir Seções em Branco
+
+		Fórmulas de Formato
+
+		Visível: {@Tamanho}=1
+
+		
+	Subseção.8 
+		Visível, Manter Junto, Suprimir Seções em Branco
+
+		Fórmulas de Formato
+
+		Visível: {@Tamanho}=1
+
+		
+	Subseção.9 
+		Visível, Manter Junto, Suprimir Seções em Branco
+
+	Subseção.10 
+		Visível, Manter Junto
+
+		Fórmulas de Formato
+
+		Visível: //{@TpGrupo}<>1
+
+		
+	{@Sum1_0}
+		Seqüência de Caracteres, Visível, Alinhamento Padrão, Alinhamento Superior, 
+		Manter Junto, Usando Formatação Padrão do Sistema, Quebra de Palavra
+
+
+	{@Sum2_0}
+		Numérico, Visível, Alinhamento Padrão, Alinhamento Superior, 
+		Manter Junto, Usando Formatação Padrão do Sistema, 
+		Sinal de Menos à Esquerda, 2 Casa Decimais, Arredondamento: 0.01, 
+		Símbolo de Milhares: '.', Símbolo Decimal: ','
+
+
+	{@Sum3_0}
+		Numérico, Visível, Alinhamento Padrão, Alinhamento Superior, 
+		Manter Junto, Usando Formatação Padrão do Sistema, 
+		Sinal de Menos à Esquerda, 2 Casa Decimais, Arredondamento: 0.01, 
+		Símbolo de Milhares: '.', Símbolo Decimal: ','
+
+
+	{@Sum5_0}
+		Numérico, Visível, Alinhamento Padrão, Alinhamento Superior, 
+		Manter Junto, Usando Formatação Padrão do Sistema, 
+		Sinal de Menos à Esquerda, 2 Casa Decimais, Arredondamento: 0.01, 
+		Símbolo de Milhares: '.', Símbolo Decimal: ','
+
+
+	{@Sum4_0}
+		Numérico, Visível, Alinhamento Padrão, Alinhamento Superior, 
+		Manter Junto, Usando Formatação Padrão do Sistema, 
+		Sinal de Menos à Esquerda, 2 Casa Decimais, Arredondamento: 0.01, 
+		Símbolo de Milhares: '.', Símbolo Decimal: ','
+
+
+	{@Sum6_0}
+		Numérico, Visível, Alinhamento Padrão, Alinhamento Superior, 
+		Manter Junto, Usando Formatação Padrão do Sistema, 
+		Sinal de Menos à Esquerda, 2 Casa Decimais, Arredondamento: 0.01, 
+		Símbolo de Milhares: '.', Símbolo Decimal: ','
+
+
+	{@Sum7_0}
+		Numérico, Visível, Alinhamento Padrão, Alinhamento Superior, 
+		Manter Junto, Usando Formatação Padrão do Sistema, 
+		Sinal de Menos à Esquerda, 2 Casa Decimais, Arredondamento: 0.01, 
+		Símbolo de Milhares: '.', Símbolo Decimal: ','
+
+
+	{@Sum8_0}
+		Seqüência de Caracteres, Visível, Alinhamento Padrão, Alinhamento Superior, 
+		Manter Junto, Usando Formatação Padrão do Sistema, Quebra de Palavra
+
+
+	{@Sub1}
+		Seqüência de Caracteres, Visível, Alinhamento à Direita, Alinhamento Superior, 
+		Manter Junto, Usando Formatação Padrão do Sistema, Quebra de Palavra
+
+
+	{@RodGrupo}
+		Seqüência de Caracteres, Visível, Alinhamento à Direita, Alinhamento Superior, 
+		Manter Junto, Usando Formatação Padrão do Sistema, Quebra de Palavra
+
+
+	{@Sum1_1}
+		Seqüência de Caracteres, Visível, Alinhamento Padrão, Alinhamento Superior, 
+		Manter Junto, Usando Formatação Padrão do Sistema, Quebra de Palavra
+
+
+	{@Sum2_1}
+		Numérico, Visível, Alinhamento Padrão, Alinhamento Superior, 
+		Manter Junto, Usando Formatação Padrão do Sistema, 
+		Sinal de Menos à Esquerda, 2 Casa Decimais, Arredondamento: 0.01, 
+		Símbolo de Milhares: '.', Símbolo Decimal: ','
+
+
+	{@Sum3_1}
+		Numérico, Visível, Alinhamento Padrão, Alinhamento Superior, 
+		Manter Junto, Usando Formatação Padrão do Sistema, 
+		Sinal de Menos à Esquerda, 2 Casa Decimais, Arredondamento: 0.01, 
+		Símbolo de Milhares: '.', Símbolo Decimal: ','
+
+
+	{@Sum5_1}
+		Numérico, Visível, Alinhamento Padrão, Alinhamento Superior, 
+		Manter Junto, Usando Formatação Padrão do Sistema, 
+		Sinal de Menos à Esquerda, 2 Casa Decimais, Arredondamento: 0.01, 
+		Símbolo de Milhares: '.', Símbolo Decimal: ','
+
+
+	{@Sum4_1}
+		Numérico, Visível, Alinhamento Padrão, Alinhamento Superior, 
+		Manter Junto, Usando Formatação Padrão do Sistema, 
+		Sinal de Menos à Esquerda, 2 Casa Decimais, Arredondamento: 0.01, 
+		Símbolo de Milhares: '.', Símbolo Decimal: ','
+
+
+	{@Sum6_1}
+		Numérico, Visível, Alinhamento Padrão, Alinhamento Superior, 
+		Manter Junto, Usando Formatação Padrão do Sistema, 
+		Sinal de Menos à Esquerda, 2 Casa Decimais, Arredondamento: 0.01, 
+		Símbolo de Milhares: '.', Símbolo Decimal: ','
+
+
+	{@Sum7_1}
+		Numérico, Visível, Alinhamento Padrão, Alinhamento Superior, 
+		Manter Junto, Usando Formatação Padrão do Sistema, 
+		Sinal de Menos à Esquerda, 2 Casa Decimais, Arredondamento: 0.01, 
+		Símbolo de Milhares: '.', Símbolo Decimal: ','
+
+
+	{@Sum8_1}
+		Seqüência de Caracteres, Visível, Alinhamento Padrão, Alinhamento Superior, 
+		Manter Junto, Usando Formatação Padrão do Sistema, Quebra de Palavra
+
+
+	{@Sub2}
+		Seqüência de Caracteres, Visível, Alinhamento à Direita, Alinhamento Superior, 
+		Manter Junto, Usando Formatação Padrão do Sistema, Quebra de Palavra
+
+
+	{@Sum1_2}
+		Seqüência de Caracteres, Visível, Alinhamento Padrão, Alinhamento Superior, 
+		Manter Junto, Usando Formatação Padrão do Sistema, Quebra de Palavra
+
+
+	{@Sum2_2}
+		Numérico, Visível, Alinhamento Padrão, Alinhamento Superior, 
+		Manter Junto, Usando Formatação Padrão do Sistema, 
+		Sinal de Menos à Esquerda, 2 Casa Decimais, Arredondamento: 0.01, 
+		Símbolo de Milhares: '.', Símbolo Decimal: ','
+
+
+	{@Sum3_2}
+		Numérico, Visível, Alinhamento Padrão, Alinhamento Superior, 
+		Manter Junto, Usando Formatação Padrão do Sistema, 
+		Sinal de Menos à Esquerda, 2 Casa Decimais, Arredondamento: 0.01, 
+		Símbolo de Milhares: '.', Símbolo Decimal: ','
+
+
+	{@Sum5_2}
+		Numérico, Visível, Alinhamento Padrão, Alinhamento Superior, 
+		Manter Junto, Usando Formatação Padrão do Sistema, 
+		Sinal de Menos à Esquerda, 2 Casa Decimais, Arredondamento: 0.01, 
+		Símbolo de Milhares: '.', Símbolo Decimal: ','
+
+
+	{@Sum4_2}
+		Numérico, Visível, Alinhamento Padrão, Alinhamento Superior, 
+		Manter Junto, Usando Formatação Padrão do Sistema, 
+		Sinal de Menos à Esquerda, 2 Casa Decimais, Arredondamento: 0.01, 
+		Símbolo de Milhares: '.', Símbolo Decimal: ','
+
+
+	{@Sum6_2}
+		Numérico, Visível, Alinhamento Padrão, Alinhamento Superior, 
+		Manter Junto, Usando Formatação Padrão do Sistema, 
+		Sinal de Menos à Esquerda, 2 Casa Decimais, Arredondamento: 0.01, 
+		Símbolo de Milhares: '.', Símbolo Decimal: ','
+
+
+	{@Sum7_2}
+		Numérico, Visível, Alinhamento Padrão, Alinhamento Superior, 
+		Manter Junto, Usando Formatação Padrão do Sistema, 
+		Sinal de Menos à Esquerda, 2 Casa Decimais, Arredondamento: 0.01, 
+		Símbolo de Milhares: '.', Símbolo Decimal: ','
+
+
+	{@Sum8_2}
+		Seqüência de Caracteres, Visível, Alinhamento Padrão, Alinhamento Superior, 
+		Manter Junto, Usando Formatação Padrão do Sistema, Quebra de Palavra
+
+
+	{@Sub3}
+		Seqüência de Caracteres, Visível, Alinhamento à Direita, Alinhamento Superior, 
+		Manter Junto, Usando Formatação Padrão do Sistema, Quebra de Palavra
+
+
+	{@Sum1_3}
+		Seqüência de Caracteres, Visível, Alinhamento Padrão, Alinhamento Superior, 
+		Manter Junto, Usando Formatação Padrão do Sistema, Quebra de Palavra
+
+
+	{@Sum2_3}
+		Numérico, Visível, Alinhamento Padrão, Alinhamento Superior, 
+		Manter Junto, Usando Formatação Padrão do Sistema, 
+		Sinal de Menos à Esquerda, 2 Casa Decimais, Arredondamento: 0.01, 
+		Símbolo de Milhares: '.', Símbolo Decimal: ','
+
+
+	{@Sum3_3}
+		Numérico, Visível, Alinhamento Padrão, Alinhamento Superior, 
+		Manter Junto, Usando Formatação Padrão do Sistema, 
+		Sinal de Menos à Esquerda, 2 Casa Decimais, Arredondamento: 0.01, 
+		Símbolo de Milhares: '.', Símbolo Decimal: ','
+
+
+	{@Sum5_3}
+		Numérico, Visível, Alinhamento Padrão, Alinhamento Superior, 
+		Manter Junto, Usando Formatação Padrão do Sistema, 
+		Sinal de Menos à Esquerda, 2 Casa Decimais, Arredondamento: 0.01, 
+		Símbolo de Milhares: '.', Símbolo Decimal: ','
+
+
+	{@Sum4_3}
+		Numérico, Visível, Alinhamento Padrão, Alinhamento Superior, 
+		Manter Junto, Usando Formatação Padrão do Sistema, 
+		Sinal de Menos à Esquerda, 2 Casa Decimais, Arredondamento: 0.01, 
+		Símbolo de Milhares: '.', Símbolo Decimal: ','
+
+
+	{@Sum6_3}
+		Numérico, Visível, Alinhamento Padrão, Alinhamento Superior, 
+		Manter Junto, Usando Formatação Padrão do Sistema, 
+		Sinal de Menos à Esquerda, 2 Casa Decimais, Arredondamento: 0.01, 
+		Símbolo de Milhares: '.', Símbolo Decimal: ','
+
+
+	{@Sum7_3}
+		Numérico, Visível, Alinhamento Padrão, Alinhamento Superior, 
+		Manter Junto, Usando Formatação Padrão do Sistema, 
+		Sinal de Menos à Esquerda, 2 Casa Decimais, Arredondamento: 0.01, 
+		Símbolo de Milhares: '.', Símbolo Decimal: ','
+
+
+	{@Sum8_3}
+		Seqüência de Caracteres, Visível, Alinhamento Padrão, Alinhamento Superior, 
+		Manter Junto, Usando Formatação Padrão do Sistema, Quebra de Palavra
+
+
+	{@Sub4}
+		Seqüência de Caracteres, Visível, Alinhamento à Direita, Alinhamento Superior, 
+		Manter Junto, Usando Formatação Padrão do Sistema, Quebra de Palavra
+
+
+	{@Sum1_0}
+		Seqüência de Caracteres, Visível, Alinhamento Padrão, Alinhamento Superior, 
+		Manter Junto, Usando Formatação Padrão do Sistema, Quebra de Palavra
+
+
+	{@Sum2_0}
+		Numérico, Visível, Alinhamento Padrão, Alinhamento Superior, 
+		Manter Junto, Usando Formatação Padrão do Sistema, 
+		Sinal de Menos à Esquerda, 2 Casa Decimais, Arredondamento: 0.01, 
+		Símbolo de Milhares: '.', Símbolo Decimal: ','
+
+
+	{@Sum3_0}
+		Numérico, Visível, Alinhamento Padrão, Alinhamento Superior, 
+		Manter Junto, Usando Formatação Padrão do Sistema, 
+		Sinal de Menos à Esquerda, 2 Casa Decimais, Arredondamento: 0.01, 
+		Símbolo de Milhares: '.', Símbolo Decimal: ','
+
+
+	{@Sum4_0}
+		Numérico, Visível, Alinhamento Padrão, Alinhamento Superior, 
+		Manter Junto, Usando Formatação Padrão do Sistema, 
+		Sinal de Menos à Esquerda, 2 Casa Decimais, Arredondamento: 0.01, 
+		Símbolo de Milhares: '.', Símbolo Decimal: ','
+
+
+	{@Sum5_0}
+		Numérico, Visível, Alinhamento Padrão, Alinhamento Superior, 
+		Manter Junto, Usando Formatação Padrão do Sistema, 
+		Sinal de Menos à Esquerda, 2 Casa Decimais, Arredondamento: 0.01, 
+		Símbolo de Milhares: '.', Símbolo Decimal: ','
+
+
+	{@Sum6_0}
+		Numérico, Visível, Alinhamento Padrão, Alinhamento Superior, 
+		Manter Junto, Usando Formatação Padrão do Sistema, 
+		Sinal de Menos à Esquerda, 2 Casa Decimais, Arredondamento: 0.01, 
+		Símbolo de Milhares: '.', Símbolo Decimal: ','
+
+
+	{@Sum7_0}
+		Numérico, Visível, Alinhamento Padrão, Alinhamento Superior, 
+		Manter Junto, Usando Formatação Padrão do Sistema, 
+		Sinal de Menos à Esquerda, 2 Casa Decimais, Arredondamento: 0.01, 
+		Símbolo de Milhares: '.', Símbolo Decimal: ','
+
+
+	{@Sum8_0}
+		Seqüência de Caracteres, Visível, Alinhamento Padrão, Alinhamento Superior, 
+		Manter Junto, Usando Formatação Padrão do Sistema, Quebra de Palavra
+
+
+	{@Sub1}
+		Seqüência de Caracteres, Visível, Alinhamento à Direita, Alinhamento Superior, 
+		Manter Junto, Usando Formatação Padrão do Sistema, Quebra de Palavra
+
+
+	{@RodGrupo}
+		Seqüência de Caracteres, Visível, Alinhamento à Direita, Alinhamento Superior, 
+		Manter Junto, Usando Formatação Padrão do Sistema, Quebra de Palavra
+
+
+	{@Sum1_1}
+		Seqüência de Caracteres, Visível, Alinhamento Padrão, Alinhamento Superior, 
+		Manter Junto, Usando Formatação Padrão do Sistema, Quebra de Palavra
+
+
+	{@Sum2_1}
+		Numérico, Visível, Alinhamento Padrão, Alinhamento Superior, 
+		Manter Junto, Usando Formatação Padrão do Sistema, 
+		Sinal de Menos à Esquerda, 2 Casa Decimais, Arredondamento: 0.01, 
+		Símbolo de Milhares: '.', Símbolo Decimal: ','
+
+
+	{@Sum3_1}
+		Numérico, Visível, Alinhamento Padrão, Alinhamento Superior, 
+		Manter Junto, Usando Formatação Padrão do Sistema, 
+		Sinal de Menos à Esquerda, 2 Casa Decimais, Arredondamento: 0.01, 
+		Símbolo de Milhares: '.', Símbolo Decimal: ','
+
+
+	{@Sum4_1}
+		Numérico, Visível, Alinhamento Padrão, Alinhamento Superior, 
+		Manter Junto, Usando Formatação Padrão do Sistema, 
+		Sinal de Menos à Esquerda, 2 Casa Decimais, Arredondamento: 0.01, 
+		Símbolo de Milhares: '.', Símbolo Decimal: ','
+
+
+	{@Sum5_1}
+		Numérico, Visível, Alinhamento Padrão, Alinhamento Superior, 
+		Manter Junto, Usando Formatação Padrão do Sistema, 
+		Sinal de Menos à Esquerda, 2 Casa Decimais, Arredondamento: 0.01, 
+		Símbolo de Milhares: '.', Símbolo Decimal: ','
+
+
+	{@Sum6_1}
+		Numérico, Visível, Alinhamento Padrão, Alinhamento Superior, 
+		Manter Junto, Usando Formatação Padrão do Sistema, 
+		Sinal de Menos à Esquerda, 2 Casa Decimais, Arredondamento: 0.01, 
+		Símbolo de Milhares: '.', Símbolo Decimal: ','
+
+
+	{@Sum7_1}
+		Numérico, Visível, Alinhamento Padrão, Alinhamento Superior, 
+		Manter Junto, Usando Formatação Padrão do Sistema, 
+		Sinal de Menos à Esquerda, 2 Casa Decimais, Arredondamento: 0.01, 
+		Símbolo de Milhares: '.', Símbolo Decimal: ','
+
+
+	{@Sum8_1}
+		Seqüência de Caracteres, Visível, Alinhamento Padrão, Alinhamento Superior, 
+		Manter Junto, Usando Formatação Padrão do Sistema, Quebra de Palavra
+
+
+	{@Sub2}
+		Seqüência de Caracteres, Visível, Alinhamento à Direita, Alinhamento Superior, 
+		Manter Junto, Usando Formatação Padrão do Sistema, Quebra de Palavra
+
+
+	{@Sum1_2}
+		Seqüência de Caracteres, Visível, Alinhamento Padrão, Alinhamento Superior, 
+		Manter Junto, Usando Formatação Padrão do Sistema, Quebra de Palavra
+
+
+	{@Sum2_2}
+		Numérico, Visível, Alinhamento Padrão, Alinhamento Superior, 
+		Manter Junto, Usando Formatação Padrão do Sistema, 
+		Sinal de Menos à Esquerda, 2 Casa Decimais, Arredondamento: 0.01, 
+		Símbolo de Milhares: '.', Símbolo Decimal: ','
+
+
+	{@Sum3_2}
+		Numérico, Visível, Alinhamento Padrão, Alinhamento Superior, 
+		Manter Junto, Usando Formatação Padrão do Sistema, 
+		Sinal de Menos à Esquerda, 2 Casa Decimais, Arredondamento: 0.01, 
+		Símbolo de Milhares: '.', Símbolo Decimal: ','
+
+
+	{@Sum4_2}
+		Numérico, Visível, Alinhamento Padrão, Alinhamento Superior, 
+		Manter Junto, Usando Formatação Padrão do Sistema, 
+		Sinal de Menos à Esquerda, 2 Casa Decimais, Arredondamento: 0.01, 
+		Símbolo de Milhares: '.', Símbolo Decimal: ','
+
+
+	{@Sum5_2}
+		Numérico, Visível, Alinhamento Padrão, Alinhamento Superior, 
+		Manter Junto, Usando Formatação Padrão do Sistema, 
+		Sinal de Menos à Esquerda, 2 Casa Decimais, Arredondamento: 0.01, 
+		Símbolo de Milhares: '.', Símbolo Decimal: ','
+
+
+	{@Sum6_2}
+		Numérico, Visível, Alinhamento Padrão, Alinhamento Superior, 
+		Manter Junto, Usando Formatação Padrão do Sistema, 
+		Sinal de Menos à Esquerda, 2 Casa Decimais, Arredondamento: 0.01, 
+		Símbolo de Milhares: '.', Símbolo Decimal: ','
+
+
+	{@Sum7_2}
+		Numérico, Visível, Alinhamento Padrão, Alinhamento Superior, 
+		Manter Junto, Usando Formatação Padrão do Sistema, 
+		Sinal de Menos à Esquerda, 2 Casa Decimais, Arredondamento: 0.01, 
+		Símbolo de Milhares: '.', Símbolo Decimal: ','
+
+
+	{@Sum8_2}
+		Seqüência de Caracteres, Visível, Alinhamento Padrão, Alinhamento Superior, 
+		Manter Junto, Usando Formatação Padrão do Sistema, Quebra de Palavra
+
+
+	{@Sub3}
+		Seqüência de Caracteres, Visível, Alinhamento à Direita, Alinhamento Superior, 
+		Manter Junto, Usando Formatação Padrão do Sistema, Quebra de Palavra
+
+
+	{@Sum1_3}
+		Seqüência de Caracteres, Visível, Alinhamento Padrão, Alinhamento Superior, 
+		Manter Junto, Usando Formatação Padrão do Sistema, Quebra de Palavra
+
+
+	{@Sum2_3}
+		Numérico, Visível, Alinhamento Padrão, Alinhamento Superior, 
+		Manter Junto, Usando Formatação Padrão do Sistema, 
+		Sinal de Menos à Esquerda, 2 Casa Decimais, Arredondamento: 0.01, 
+		Símbolo de Milhares: '.', Símbolo Decimal: ','
+
+
+	{@Sum3_3}
+		Numérico, Visível, Alinhamento Padrão, Alinhamento Superior, 
+		Manter Junto, Usando Formatação Padrão do Sistema, 
+		Sinal de Menos à Esquerda, 2 Casa Decimais, Arredondamento: 0.01, 
+		Símbolo de Milhares: '.', Símbolo Decimal: ','
+
+
+	{@Sum4_3}
+		Numérico, Visível, Alinhamento Padrão, Alinhamento Superior, 
+		Manter Junto, Usando Formatação Padrão do Sistema, 
+		Sinal de Menos à Esquerda, 2 Casa Decimais, Arredondamento: 0.01, 
+		Símbolo de Milhares: '.', Símbolo Decimal: ','
+
+
+	{@Sum5_3}
+		Numérico, Visível, Alinhamento Padrão, Alinhamento Superior, 
+		Manter Junto, Usando Formatação Padrão do Sistema, 
+		Sinal de Menos à Esquerda, 2 Casa Decimais, Arredondamento: 0.01, 
+		Símbolo de Milhares: '.', Símbolo Decimal: ','
+
+
+	{@Sum6_3}
+		Numérico, Visível, Alinhamento Padrão, Alinhamento Superior, 
+		Manter Junto, Usando Formatação Padrão do Sistema, 
+		Sinal de Menos à Esquerda, 2 Casa Decimais, Arredondamento: 0.01, 
+		Símbolo de Milhares: '.', Símbolo Decimal: ','
+
+
+	{@Sum7_3}
+		Numérico, Visível, Alinhamento Padrão, Alinhamento Superior, 
+		Manter Junto, Usando Formatação Padrão do Sistema, 
+		Sinal de Menos à Esquerda, 2 Casa Decimais, Arredondamento: 0.01, 
+		Símbolo de Milhares: '.', Símbolo Decimal: ','
+
+
+	{@Sum8_3}
+		Seqüência de Caracteres, Visível, Alinhamento Padrão, Alinhamento Superior, 
+		Manter Junto, Usando Formatação Padrão do Sistema, Quebra de Palavra
+
+
+	{@Sub4}
+		Seqüência de Caracteres, Visível, Alinhamento à Direita, Alinhamento Superior, 
+		Manter Junto, Usando Formatação Padrão do Sistema, Quebra de Palavra
+
+
+5.7 Seção Detalhes
+	Visível
+
+	Subseção.1 
+		Visível
+
+		Fórmulas de Formato
+
+		Visível: //{@Tamanho}<>1 OR {@Grupo}<>ToText({Medidas.DATA},"yyyy/MM/dd")
+{@Tamanho}<>1 OR {@TpGrupo}<>1
+
+		
+	Subseção.2 
+		Visível, Suprimir Seções em Branco
+
+		Fórmulas de Formato
+
+		Visível: //{@Tamanho}<>1 OR {@Grupo}<>ToText({Medidas.DATA},"yyyy/MM/dd")
+{@Tamanho}<>1 OR {@TpGrupo}<>1
+
+		
+	Subseção.3 
+		Visível, Suprimir Seções em Branco
+
+		Fórmulas de Formato
+
+		Visível: //{@Tamanho}<>1 OR {@Grupo}<>ToText({Medidas.DATA},"yyyy/MM/dd")
+{@Tamanho}<>1 OR {@TpGrupo}<>1
+
+		
+	Subseção.4 
+		Visível, Suprimir Seções em Branco
+
+		Fórmulas de Formato
+
+		Visível: //{@Tamanho}<>1 OR {@Grupo}<>ToText({Medidas.DATA},"yyyy/MM/dd")
+{@Tamanho}<>1 OR {@TpGrupo}<>1
+
+		
+	Subseção.5 
+		Visível
+
+		Fórmulas de Formato
+
+		Visível: //{@Tamanho}=1 OR {@Grupo}<>ToText({Medidas.DATA},"yyyy/MM/dd")
+{@Tamanho}=1 OR {@TpGrupo}<>1
+
+		
+	Subseção.6 
+		Visível, Suprimir Seções em Branco
+
+		Fórmulas de Formato
+
+		Visível: //{@Tamanho}=1 OR {@Grupo}<>ToText({Medidas.DATA},"yyyy/MM/dd")
+{@Tamanho}=1 OR {@TpGrupo}<>1
+
+		
+	Subseção.7 
+		Visível, Suprimir Seções em Branco
+
+		Fórmulas de Formato
+
+		Visível: //{@Tamanho}=1 OR {@Grupo}<>ToText({Medidas.DATA},"yyyy/MM/dd")
+{@Tamanho}=1 OR {@TpGrupo}<>1
+
+		
+	Subseção.8 
+		Visível, Suprimir Seções em Branco
+
+		Fórmulas de Formato
+
+		Visível: //{@Tamanho}=1 OR {@Grupo}<>ToText({Medidas.DATA},"yyyy/MM/dd")
+{@Tamanho}=1 OR {@TpGrupo}<>1
+
+		
+	Subseção.9 
+		Visível, Manter Junto
+
+		Fórmulas de Formato
+
+		Visível: //{@Grupo}<>ToText({Medidas.DATA},"yyyy/MM/dd")
+{@TpGrupo}<>1
+
+		
+	{@Vlr1_0}
+		Numérico, Visível, Alinhamento à Direita, Alinhamento Superior, 
+		Manter Junto, Usando Formatação Padrão do Sistema, 
+		Sinal de Menos à Esquerda, 2 Casa Decimais, Arredondamento: 0.01, 
+		Símbolo de Milhares: '.', Símbolo Decimal: ','
+
+
+	{@Vlr2_0}
+		Numérico, Visível, Alinhamento à Direita, Alinhamento Superior, 
+		Manter Junto, Usando Formatação Padrão do Sistema, 
+		Sinal de Menos à Esquerda, 2 Casa Decimais, Arredondamento: 0.01, 
+		Símbolo de Milhares: '.', Símbolo Decimal: ','
+
+
+	{@Vlr3_0}
+		Numérico, Visível, Alinhamento à Direita, Alinhamento Superior, 
+		Manter Junto, Usando Formatação Padrão do Sistema, 
+		Sinal de Menos à Esquerda, 2 Casa Decimais, Arredondamento: 0.01, 
+		Símbolo de Milhares: '.', Símbolo Decimal: ','
+
+
+	{@Vlr4_0}
+		Numérico, Visível, Alinhamento à Direita, Alinhamento Superior, 
+		Manter Junto, Usando Formatação Padrão do Sistema, 
+		Sinal de Menos à Esquerda, 2 Casa Decimais, Arredondamento: 0.01, 
+		Símbolo de Milhares: '.', Símbolo Decimal: ','
+
+
+	{@Vlr5_0}
+		Numérico, Visível, Alinhamento à Direita, Alinhamento Superior, 
+		Manter Junto, Usando Formatação Padrão do Sistema, 
+		Sinal de Menos à Esquerda, 2 Casa Decimais, Arredondamento: 0.01, 
+		Símbolo de Milhares: '.', Símbolo Decimal: ','
+
+
+	{@Vlr6_0}
+		Numérico, Visível, Alinhamento à Direita, Alinhamento Superior, 
+		Manter Junto, Usando Formatação Padrão do Sistema, 
+		Sinal de Menos à Esquerda, 2 Casa Decimais, Arredondamento: 0.01, 
+		Símbolo de Milhares: '.', Símbolo Decimal: ','
+
+
+	{@Vlr7_0}
+		Numérico, Visível, Alinhamento à Direita, Alinhamento Superior, 
+		Manter Junto, Usando Formatação Padrão do Sistema, 
+		Sinal de Menos à Esquerda, 2 Casa Decimais, Arredondamento: 0.01, 
+		Símbolo de Milhares: '.', Símbolo Decimal: ','
+
+
+	{@Vlr8_0}
+		Seqüência de Caracteres, Visível, Alinhamento à Direita, Alinhamento Superior, 
+		Manter Junto, Usando Formatação Padrão do Sistema, Quebra de Palavra
+
+
+	{@Sub1}
+		Seqüência de Caracteres, Visível, Alinhamento à Direita, Alinhamento Superior, 
+		Manter Junto, Usando Formatação Padrão do Sistema, Quebra de Palavra
+
+
+	{Medidas.DATA}
+		Data e Hora, Visível, Alinhamento Central Horizontal, Alinhamento Superior, 
+		Manter Junto, Ordem de Data e Hora: Somente Hora, Separador: '  '
+
+
+	{@Vlr1_1}
+		Numérico, Visível, Alinhamento à Direita, Alinhamento Superior, 
+		Manter Junto, Usando Formatação Padrão do Sistema, 
+		Sinal de Menos à Esquerda, 2 Casa Decimais, Arredondamento: 0.01, 
+		Símbolo de Milhares: '.', Símbolo Decimal: ','
+
+
+	{@Vlr2_1}
+		Numérico, Visível, Alinhamento à Direita, Alinhamento Superior, 
+		Manter Junto, Usando Formatação Padrão do Sistema, 
+		Sinal de Menos à Esquerda, 2 Casa Decimais, Arredondamento: 0.01, 
+		Símbolo de Milhares: '.', Símbolo Decimal: ','
+
+
+	{@Vlr3_1}
+		Numérico, Visível, Alinhamento à Direita, Alinhamento Superior, 
+		Manter Junto, Usando Formatação Padrão do Sistema, 
+		Sinal de Menos à Esquerda, 2 Casa Decimais, Arredondamento: 0.01, 
+		Símbolo de Milhares: '.', Símbolo Decimal: ','
+
+
+	{@Vlr4_1}
+		Numérico, Visível, Alinhamento à Direita, Alinhamento Superior, 
+		Manter Junto, Usando Formatação Padrão do Sistema, 
+		Sinal de Menos à Esquerda, 2 Casa Decimais, Arredondamento: 0.01, 
+		Símbolo de Milhares: '.', Símbolo Decimal: ','
+
+
+	{@Vlr5_1}
+		Numérico, Visível, Alinhamento à Direita, Alinhamento Superior, 
+		Manter Junto, Usando Formatação Padrão do Sistema, 
+		Sinal de Menos à Esquerda, 2 Casa Decimais, Arredondamento: 0.01, 
+		Símbolo de Milhares: '.', Símbolo Decimal: ','
+
+
+	{@Vlr6_1}
+		Numérico, Visível, Alinhamento à Direita, Alinhamento Superior, 
+		Manter Junto, Usando Formatação Padrão do Sistema, 
+		Sinal de Menos à Esquerda, 2 Casa Decimais, Arredondamento: 0.01, 
+		Símbolo de Milhares: '.', Símbolo Decimal: ','
+
+
+	{@Vlr7_1}
+		Numérico, Visível, Alinhamento à Direita, Alinhamento Superior, 
+		Manter Junto, Usando Formatação Padrão do Sistema, 
+		Sinal de Menos à Esquerda, 2 Casa Decimais, Arredondamento: 0.01, 
+		Símbolo de Milhares: '.', Símbolo Decimal: ','
+
+
+	{@Vlr8_1}
+		Seqüência de Caracteres, Visível, Alinhamento à Direita, Alinhamento Superior, 
+		Manter Junto, Usando Formatação Padrão do Sistema, Quebra de Palavra
+
+
+	{@Sub2}
+		Seqüência de Caracteres, Visível, Alinhamento à Direita, Alinhamento Superior, 
+		Manter Junto, Usando Formatação Padrão do Sistema, Quebra de Palavra
+
+
+	{@Vlr1_2}
+		Numérico, Visível, Alinhamento à Direita, Alinhamento Superior, 
+		Manter Junto, Usando Formatação Padrão do Sistema, 
+		Sinal de Menos à Esquerda, 2 Casa Decimais, Arredondamento: 0.01, 
+		Símbolo de Milhares: '.', Símbolo Decimal: ','
+
+
+	{@Vlr2_2}
+		Numérico, Visível, Alinhamento à Direita, Alinhamento Superior, 
+		Manter Junto, Usando Formatação Padrão do Sistema, 
+		Sinal de Menos à Esquerda, 2 Casa Decimais, Arredondamento: 0.01, 
+		Símbolo de Milhares: '.', Símbolo Decimal: ','
+
+
+	{@Vlr3_2}
+		Numérico, Visível, Alinhamento à Direita, Alinhamento Superior, 
+		Manter Junto, Usando Formatação Padrão do Sistema, 
+		Sinal de Menos à Esquerda, 2 Casa Decimais, Arredondamento: 0.01, 
+		Símbolo de Milhares: '.', Símbolo Decimal: ','
+
+
+	{@Vlr4_2}
+		Numérico, Visível, Alinhamento à Direita, Alinhamento Superior, 
+		Manter Junto, Usando Formatação Padrão do Sistema, 
+		Sinal de Menos à Esquerda, 2 Casa Decimais, Arredondamento: 0.01, 
+		Símbolo de Milhares: '.', Símbolo Decimal: ','
+
+
+	{@Vlr5_2}
+		Numérico, Visível, Alinhamento à Direita, Alinhamento Superior, 
+		Manter Junto, Usando Formatação Padrão do Sistema, 
+		Sinal de Menos à Esquerda, 2 Casa Decimais, Arredondamento: 0.01, 
+		Símbolo de Milhares: '.', Símbolo Decimal: ','
+
+
+	{@Vlr6_2}
+		Numérico, Visível, Alinhamento à Direita, Alinhamento Superior, 
+		Manter Junto, Usando Formatação Padrão do Sistema, 
+		Sinal de Menos à Esquerda, 2 Casa Decimais, Arredondamento: 0.01, 
+		Símbolo de Milhares: '.', Símbolo Decimal: ','
+
+
+	{@Vlr7_2}
+		Numérico, Visível, Alinhamento à Direita, Alinhamento Superior, 
+		Manter Junto, Usando Formatação Padrão do Sistema, 
+		Sinal de Menos à Esquerda, 2 Casa Decimais, Arredondamento: 0.01, 
+		Símbolo de Milhares: '.', Símbolo Decimal: ','
+
+
+	{@Vlr8_2}
+		Seqüência de Caracteres, Visível, Alinhamento à Direita, Alinhamento Superior, 
+		Manter Junto, Usando Formatação Padrão do Sistema, Quebra de Palavra
+
+
+	{@Sub3}
+		Seqüência de Caracteres, Visível, Alinhamento à Direita, Alinhamento Superior, 
+		Manter Junto, Usando Formatação Padrão do Sistema, Quebra de Palavra
+
+
+	{@Vlr1_3}
+		Numérico, Visível, Alinhamento à Direita, Alinhamento Superior, 
+		Manter Junto, Usando Formatação Padrão do Sistema, 
+		Sinal de Menos à Esquerda, 2 Casa Decimais, Arredondamento: 0.01, 
+		Símbolo de Milhares: '.', Símbolo Decimal: ','
+
+
+	{@Vlr2_3}
+		Numérico, Visível, Alinhamento à Direita, Alinhamento Superior, 
+		Manter Junto, Usando Formatação Padrão do Sistema, 
+		Sinal de Menos à Esquerda, 2 Casa Decimais, Arredondamento: 0.01, 
+		Símbolo de Milhares: '.', Símbolo Decimal: ','
+
+
+	{@Vlr3_3}
+		Numérico, Visível, Alinhamento à Direita, Alinhamento Superior, 
+		Manter Junto, Usando Formatação Padrão do Sistema, 
+		Sinal de Menos à Esquerda, 2 Casa Decimais, Arredondamento: 0.01, 
+		Símbolo de Milhares: '.', Símbolo Decimal: ','
+
+
+	{@Vlr4_3}
+		Numérico, Visível, Alinhamento à Direita, Alinhamento Superior, 
+		Manter Junto, Usando Formatação Padrão do Sistema, 
+		Sinal de Menos à Esquerda, 2 Casa Decimais, Arredondamento: 0.01, 
+		Símbolo de Milhares: '.', Símbolo Decimal: ','
+
+
+	{@Vlr5_3}
+		Numérico, Visível, Alinhamento à Direita, Alinhamento Superior, 
+		Manter Junto, Usando Formatação Padrão do Sistema, 
+		Sinal de Menos à Esquerda, 2 Casa Decimais, Arredondamento: 0.01, 
+		Símbolo de Milhares: '.', Símbolo Decimal: ','
+
+
+	{@Vlr6_3}
+		Numérico, Visível, Alinhamento à Direita, Alinhamento Superior, 
+		Manter Junto, Usando Formatação Padrão do Sistema, 
+		Sinal de Menos à Esquerda, 2 Casa Decimais, Arredondamento: 0.01, 
+		Símbolo de Milhares: '.', Símbolo Decimal: ','
+
+
+	{@Vlr8_3}
+		Seqüência de Caracteres, Visível, Alinhamento à Direita, Alinhamento Superior, 
+		Manter Junto, Usando Formatação Padrão do Sistema, Quebra de Palavra
+
+
+	{@Vlr7_3}
+		Numérico, Visível, Alinhamento à Direita, Alinhamento Superior, 
+		Manter Junto, Usando Formatação Padrão do Sistema, 
+		Sinal de Menos à Esquerda, 2 Casa Decimais, Arredondamento: 0.01, 
+		Símbolo de Milhares: '.', Símbolo Decimal: ','
+
+
+	{@Sub4}
+		Seqüência de Caracteres, Visível, Alinhamento à Direita, Alinhamento Superior, 
+		Manter Junto, Usando Formatação Padrão do Sistema, Quebra de Palavra
+
+
+	{@Vlr1_0}
+		Numérico, Visível, Alinhamento à Direita, Alinhamento Superior, 
+		Manter Junto, Usando Formatação Padrão do Sistema, 
+		Sinal de Menos à Esquerda, 2 Casa Decimais, Arredondamento: 0.01, 
+		Símbolo de Milhares: '.', Símbolo Decimal: ','
+
+
+	{@Vlr2_0}
+		Numérico, Visível, Alinhamento à Direita, Alinhamento Superior, 
+		Manter Junto, Usando Formatação Padrão do Sistema, 
+		Sinal de Menos à Esquerda, 2 Casa Decimais, Arredondamento: 0.01, 
+		Símbolo de Milhares: '.', Símbolo Decimal: ','
+
+
+	{@Vlr3_0}
+		Numérico, Visível, Alinhamento à Direita, Alinhamento Superior, 
+		Manter Junto, Usando Formatação Padrão do Sistema, 
+		Sinal de Menos à Esquerda, 2 Casa Decimais, Arredondamento: 0.01, 
+		Símbolo de Milhares: '.', Símbolo Decimal: ','
+
+
+	{@Vlr4_0}
+		Numérico, Visível, Alinhamento à Direita, Alinhamento Superior, 
+		Manter Junto, Usando Formatação Padrão do Sistema, 
+		Sinal de Menos à Esquerda, 2 Casa Decimais, Arredondamento: 0.01, 
+		Símbolo de Milhares: '.', Símbolo Decimal: ','
+
+
+	{@Vlr5_0}
+		Numérico, Visível, Alinhamento à Direita, Alinhamento Superior, 
+		Manter Junto, Usando Formatação Padrão do Sistema, 
+		Sinal de Menos à Esquerda, 2 Casa Decimais, Arredondamento: 0.01, 
+		Símbolo de Milhares: '.', Símbolo Decimal: ','
+
+
+	{@Vlr6_0}
+		Numérico, Visível, Alinhamento à Direita, Alinhamento Superior, 
+		Manter Junto, Usando Formatação Padrão do Sistema, 
+		Sinal de Menos à Esquerda, 2 Casa Decimais, Arredondamento: 0.01, 
+		Símbolo de Milhares: '.', Símbolo Decimal: ','
+
+
+	{@Vlr7_0}
+		Numérico, Visível, Alinhamento à Direita, Alinhamento Superior, 
+		Manter Junto, Usando Formatação Padrão do Sistema, 
+		Sinal de Menos à Esquerda, 2 Casa Decimais, Arredondamento: 0.01, 
+		Símbolo de Milhares: '.', Símbolo Decimal: ','
+
+
+	{@Vlr8_0}
+		Seqüência de Caracteres, Visível, Alinhamento à Direita, Alinhamento Superior, 
+		Manter Junto, Usando Formatação Padrão do Sistema, Quebra de Palavra
+
+
+	{@Sub1}
+		Seqüência de Caracteres, Visível, Alinhamento à Direita, Alinhamento Superior, 
+		Manter Junto, Usando Formatação Padrão do Sistema, Quebra de Palavra
+
+
+	{Medidas.DATA}
+		Data e Hora, Visível, Alinhamento Central Horizontal, Alinhamento Superior, 
+		Manter Junto, Ordem de Data e Hora: Somente Hora, Separador: '  '
+
+
+	{@Vlr8_1}
+		Seqüência de Caracteres, Visível, Alinhamento à Direita, Alinhamento Superior, 
+		Manter Junto, Usando Formatação Padrão do Sistema, Quebra de Palavra
+
+
+	{@Vlr7_1}
+		Numérico, Visível, Alinhamento à Direita, Alinhamento Superior, 
+		Manter Junto, Usando Formatação Padrão do Sistema, 
+		Sinal de Menos à Esquerda, 2 Casa Decimais, Arredondamento: 0.01, 
+		Símbolo de Milhares: '.', Símbolo Decimal: ','
+
+
+	{@Vlr6_1}
+		Numérico, Visível, Alinhamento à Direita, Alinhamento Superior, 
+		Manter Junto, Usando Formatação Padrão do Sistema, 
+		Sinal de Menos à Esquerda, 2 Casa Decimais, Arredondamento: 0.01, 
+		Símbolo de Milhares: '.', Símbolo Decimal: ','
+
+
+	{@Vlr5_1}
+		Numérico, Visível, Alinhamento à Direita, Alinhamento Superior, 
+		Manter Junto, Usando Formatação Padrão do Sistema, 
+		Sinal de Menos à Esquerda, 2 Casa Decimais, Arredondamento: 0.01, 
+		Símbolo de Milhares: '.', Símbolo Decimal: ','
+
+
+	{@Vlr4_1}
+		Numérico, Visível, Alinhamento à Direita, Alinhamento Superior, 
+		Manter Junto, Usando Formatação Padrão do Sistema, 
+		Sinal de Menos à Esquerda, 2 Casa Decimais, Arredondamento: 0.01, 
+		Símbolo de Milhares: '.', Símbolo Decimal: ','
+
+
+	{@Vlr3_1}
+		Numérico, Visível, Alinhamento à Direita, Alinhamento Superior, 
+		Manter Junto, Usando Formatação Padrão do Sistema, 
+		Sinal de Menos à Esquerda, 2 Casa Decimais, Arredondamento: 0.01, 
+		Símbolo de Milhares: '.', Símbolo Decimal: ','
+
+
+	{@Vlr2_1}
+		Numérico, Visível, Alinhamento à Direita, Alinhamento Superior, 
+		Manter Junto, Usando Formatação Padrão do Sistema, 
+		Sinal de Menos à Esquerda, 2 Casa Decimais, Arredondamento: 0.01, 
+		Símbolo de Milhares: '.', Símbolo Decimal: ','
+
+
+	{@Vlr1_1}
+		Numérico, Visível, Alinhamento à Direita, Alinhamento Superior, 
+		Manter Junto, Usando Formatação Padrão do Sistema, 
+		Sinal de Menos à Esquerda, 2 Casa Decimais, Arredondamento: 0.01, 
+		Símbolo de Milhares: '.', Símbolo Decimal: ','
+
+
+	{@Sub2}
+		Seqüência de Caracteres, Visível, Alinhamento à Direita, Alinhamento Superior, 
+		Manter Junto, Usando Formatação Padrão do Sistema, Quebra de Palavra
+
+
+	{@Vlr8_2}
+		Seqüência de Caracteres, Visível, Alinhamento à Direita, Alinhamento Superior, 
+		Manter Junto, Usando Formatação Padrão do Sistema, Quebra de Palavra
+
+
+	{@Vlr7_2}
+		Numérico, Visível, Alinhamento à Direita, Alinhamento Superior, 
+		Manter Junto, Usando Formatação Padrão do Sistema, 
+		Sinal de Menos à Esquerda, 2 Casa Decimais, Arredondamento: 0.01, 
+		Símbolo de Milhares: '.', Símbolo Decimal: ','
+
+
+	{@Vlr6_2}
+		Numérico, Visível, Alinhamento à Direita, Alinhamento Superior, 
+		Manter Junto, Usando Formatação Padrão do Sistema, 
+		Sinal de Menos à Esquerda, 2 Casa Decimais, Arredondamento: 0.01, 
+		Símbolo de Milhares: '.', Símbolo Decimal: ','
+
+
+	{@Vlr5_2}
+		Numérico, Visível, Alinhamento à Direita, Alinhamento Superior, 
+		Manter Junto, Usando Formatação Padrão do Sistema, 
+		Sinal de Menos à Esquerda, 2 Casa Decimais, Arredondamento: 0.01, 
+		Símbolo de Milhares: '.', Símbolo Decimal: ','
+
+
+	{@Vlr4_2}
+		Numérico, Visível, Alinhamento à Direita, Alinhamento Superior, 
+		Manter Junto, Usando Formatação Padrão do Sistema, 
+		Sinal de Menos à Esquerda, 2 Casa Decimais, Arredondamento: 0.01, 
+		Símbolo de Milhares: '.', Símbolo Decimal: ','
+
+
+	{@Vlr3_2}
+		Numérico, Visível, Alinhamento à Direita, Alinhamento Superior, 
+		Manter Junto, Usando Formatação Padrão do Sistema, 
+		Sinal de Menos à Esquerda, 2 Casa Decimais, Arredondamento: 0.01, 
+		Símbolo de Milhares: '.', Símbolo Decimal: ','
+
+
+	{@Vlr2_2}
+		Numérico, Visível, Alinhamento à Direita, Alinhamento Superior, 
+		Manter Junto, Usando Formatação Padrão do Sistema, 
+		Sinal de Menos à Esquerda, 2 Casa Decimais, Arredondamento: 0.01, 
+		Símbolo de Milhares: '.', Símbolo Decimal: ','
+
+
+	{@Vlr1_2}
+		Numérico, Visível, Alinhamento à Direita, Alinhamento Superior, 
+		Manter Junto, Usando Formatação Padrão do Sistema, 
+		Sinal de Menos à Esquerda, 2 Casa Decimais, Arredondamento: 0.01, 
+		Símbolo de Milhares: '.', Símbolo Decimal: ','
+
+
+	{@Sub3}
+		Seqüência de Caracteres, Visível, Alinhamento à Direita, Alinhamento Superior, 
+		Manter Junto, Usando Formatação Padrão do Sistema, Quebra de Palavra
+
+
+	{@Vlr1_3}
+		Numérico, Visível, Alinhamento à Direita, Alinhamento Superior, 
+		Manter Junto, Usando Formatação Padrão do Sistema, 
+		Sinal de Menos à Esquerda, 2 Casa Decimais, Arredondamento: 0.01, 
+		Símbolo de Milhares: '.', Símbolo Decimal: ','
+
+
+	{@Vlr2_3}
+		Numérico, Visível, Alinhamento à Direita, Alinhamento Superior, 
+		Manter Junto, Usando Formatação Padrão do Sistema, 
+		Sinal de Menos à Esquerda, 2 Casa Decimais, Arredondamento: 0.01, 
+		Símbolo de Milhares: '.', Símbolo Decimal: ','
+
+
+	{@Vlr3_3}
+		Numérico, Visível, Alinhamento à Direita, Alinhamento Superior, 
+		Manter Junto, Usando Formatação Padrão do Sistema, 
+		Sinal de Menos à Esquerda, 2 Casa Decimais, Arredondamento: 0.01, 
+		Símbolo de Milhares: '.', Símbolo Decimal: ','
+
+
+	{@Vlr4_3}
+		Numérico, Visível, Alinhamento à Direita, Alinhamento Superior, 
+		Manter Junto, Usando Formatação Padrão do Sistema, 
+		Sinal de Menos à Esquerda, 2 Casa Decimais, Arredondamento: 0.01, 
+		Símbolo de Milhares: '.', Símbolo Decimal: ','
+
+
+	{@Vlr5_3}
+		Numérico, Visível, Alinhamento à Direita, Alinhamento Superior, 
+		Manter Junto, Usando Formatação Padrão do Sistema, 
+		Sinal de Menos à Esquerda, 2 Casa Decimais, Arredondamento: 0.01, 
+		Símbolo de Milhares: '.', Símbolo Decimal: ','
+
+
+	{@Vlr6_3}
+		Numérico, Visível, Alinhamento à Direita, Alinhamento Superior, 
+		Manter Junto, Usando Formatação Padrão do Sistema, 
+		Sinal de Menos à Esquerda, 2 Casa Decimais, Arredondamento: 0.01, 
+		Símbolo de Milhares: '.', Símbolo Decimal: ','
+
+
+	{@Vlr7_3}
+		Numérico, Visível, Alinhamento à Direita, Alinhamento Superior, 
+		Manter Junto, Usando Formatação Padrão do Sistema, 
+		Sinal de Menos à Esquerda, 2 Casa Decimais, Arredondamento: 0.01, 
+		Símbolo de Milhares: '.', Símbolo Decimal: ','
+
+
+	{@Vlr8_3}
+		Seqüência de Caracteres, Visível, Alinhamento à Direita, Alinhamento Superior, 
+		Manter Junto, Usando Formatação Padrão do Sistema, Quebra de Palavra
+
+
+	{@Sub4}
+		Seqüência de Caracteres, Visível, Alinhamento à Direita, Alinhamento Superior, 
+		Manter Junto, Usando Formatação Padrão do Sistema, Quebra de Palavra
+
+

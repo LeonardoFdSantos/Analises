@@ -1,0 +1,124 @@
+  Gallas
+   - /                                                    Fone: 
+  CNPJ:                                                   CEP: 
+
+                                                                            26/11/2018
+  Estatística                                     ST-Conecta v.1.2.146        15:02:17
+   Faixa de dados: Período:20/11/2018 (11:49:29) a 23/11/2018 (09:25:46) > Equip.:0499
+  .A-ST9600R.
+   SET-POINT: 0,95   -   HORÁRIO DE PONTA: 18:00 A 21:00
+
+  Variável                           Menor Valor  Valor Maior       Média
+
+  Fator de Potência /Fase R               0,610        1,000        0,771
+
+  Fator de Potência /Fase S               0,750        1,000        0,903
+
+  Fator de Potência /Fase T               0,630        1,000        0,767
+
+  Faltas KVAr /Fase R                     0,000        0,000        0,000
+
+  Faltas KVAr /Fase S                     0,000        0,000        0,000
+
+  Faltas KVAr /Fase T                     0,000        0,000        0,000
+
+  Tensão (Vac) /Fase R                    0,000      235,070      224,970
+
+  Tensão (Vac) /Fase S                    0,000      233,070      223,810
+
+  Tensão (Vac) /Fase T                    0,000      233,600      224,162
+
+  Potência Ativa (kW) /Fase R             0,000      203,640       32,335
+
+  Potência Ativa (kW) /Fase S             0,000      224,280       32,594
+
+  Potência Ativa (kW) /Fase T             0,000      205,399       32,098
+
+  Potência Reativa (kVAr) /Fase R         0,000      264,530       26,282
+
+  Potência Reativa (kVAr) /Fase S         0,000      197,789       15,453
+
+  Potência Reativa (kVAr) /Fase T         0,000      253,200       26,360
+
+  Potência Aparente (VA) /Fase R          0,000      333,840       41,750
+
+  Potência Aparente (VA) /Fase S          0,000      299,040       36,172
+
+  Potência Aparente (VA) /Fase T          0,000      326,040       41,606
+
+  Consumo Ativo (kWh) /Fase R             0,000    2.036,729      889,490
+
+  Consumo Ativo (kWh) /Fase S             0,000    2.051,899      900,596
+
+  Consumo Ativo (kWh) /Fase T             0,000    2.024,239      884,097
+
+  Consumo Reativo (kVArh) /Fase R         0,000    1.652,000      692,684
+
+  Consumo Reativo (kVArh) /Fase S         0,000      979,080      400,057
+
+  Consumo Reativo (kVArh) /Fase T         0,000    1.656,689      697,187
+
+
+                                                                               Pág.: 1
+                                                                            26/11/2018
+  Estatística                                     ST-Conecta v.1.2.146        15:02:17
+   Faixa de dados: Período:20/11/2018 (11:49:29) a 23/11/2018 (09:25:46) > Equip.:0499
+  .A-ST9600R.
+   SET-POINT: 0,95   -   HORÁRIO DE PONTA: 18:00 A 21:00
+
+  Variável                           Menor Valor  Valor Maior       Média
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                               Pág.: 2
