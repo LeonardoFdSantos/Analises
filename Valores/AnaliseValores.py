@@ -16,3 +16,10 @@ Valores = ValoresDataset
 import featuretools as ft
 
 data = ft.demo.load_mock_customer()
+customers_df = data["customers"]
+sessions_df = data["sessions"]
+transactions_df = data["transactions"]
+entities = {"customers" : (customers_df, "customer_id"),
+            "sessions" : (sessions_df, "session_id", "session_start"),
+            "transactions" : (transactions_df, "transaction_id", "transaction_time")
+}
