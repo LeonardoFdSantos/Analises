@@ -20,3 +20,4 @@ for x in nome:
     dir = path+'/'+x
     if os.path.isdir(dir) == False:
         os.makedirs(dir)
+        
