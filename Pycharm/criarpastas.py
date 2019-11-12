@@ -18,4 +18,5 @@ for i in range(1,maximo):
 path = './contas'
 for x in nome:
     dir = path+'/'+x
-    os.makedirs(dir)
+    if os.path.isdir(dir) == False:
+        os.makedirs(dir)
